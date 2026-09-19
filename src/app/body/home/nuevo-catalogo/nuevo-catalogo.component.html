@@ -1,0 +1,31 @@
+<section class="section" style="padding-top:64px;padding-bottom:8px;">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow on-light">Recién llegado</span>
+      <h2 class="reveal-title" appScrollReveal>Lo último en nuestro catálogo</h2>
+    </div>
+
+    <div class="new-carousel reveal" appScrollReveal (mouseenter)="pause()" (mouseleave)="resume()">
+      <button class="new-arrow new-arrow-left" (click)="prev()" aria-label="Anterior">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 6l-6 6 6 6"/></svg>
+      </button>
+      <div class="new-stage">
+        <div [class]="n.slideClass" *ngFor="let n of arrivals; trackBy: trackByProductId">
+          <img [src]="n.img" [alt]="n.name">
+          <span class="new-badge">Nuevo</span>
+          <div class="new-info">
+            <div class="new-name">{{ n.name }}</div>
+            <div class="new-cat">{{ n.categoryLabel }}</div>
+          </div>
+        </div>
+      </div>
+      <button class="new-arrow new-arrow-right" (click)="next()" aria-label="Siguiente">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+
+    <div class="new-dots">
+      <button [class]="i === index ? 'new-dot active' : 'new-dot'" *ngFor="let i of dots" (click)="goTo(i)" aria-label="Ir a la pieza destacada"></button>
+    </div>
+  </div>
+</section>

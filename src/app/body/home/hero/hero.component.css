@@ -1,0 +1,92 @@
+.hero {
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.hero img.bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.hero .veil {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, rgba(59, 20, 80, 0.94) 10%, rgba(124, 44, 176, 0.75) 55%, rgba(226, 63, 107, 0.55) 100%);
+    z-index: 1;
+}
+.hero-inner {
+    position: relative;
+    z-index: 2;
+    padding: 100px 24px 130px;
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+}
+.hero-inner h1 {
+    color: #fff;
+    font-size: 52px;
+    line-height: 1.08;
+    max-width: 680px;
+    margin: 18px 0 20px;
+}
+.hero-inner p.lead {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 17px;
+    max-width: 540px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+.hero-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+@media (max-width: 640px) {
+    .hero-inner h1 { font-size: 36px; }
+    .hero { min-height: 520px; }
+}
+
+.stat-card {
+    background: #fff;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+    margin: -72px 24px 0;
+    max-width: 1132px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    position: relative;
+    z-index: 3;
+}
+.stat-item {
+    text-align: center;
+    padding: 6px 8px;
+    border-right: 1px solid var(--line);
+}
+.stat-item:last-child {
+    border-right: none;
+}
+.stat-num {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: var(--purple-700);
+}
+.stat-label {
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 4px;
+    line-height: 1.4;
+}
+@media (max-width: 800px) {
+    .stat-card { grid-template-columns: repeat(2, 1fr); }
+    .stat-item { border-right: none; border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+}

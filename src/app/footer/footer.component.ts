@@ -1,27 +1,26 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { CategoryService, Category, CategorySummary } from '../services/serviceCategory';
+import { CatalogFilterService } from '../services/catalog-filter.service';
+import { ClaimsService } from '../services/claims.service';
 
 @Component({
   selector: 'app-footer',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  fecha: string = new Date().getFullYear().toString();
-  categories: Category[] = [];
+  year = new Date().getFullYear();
 
-  constructor(private categoryService: CategoryService, private router: Router) {
-    this.categoryService.getFirstLevelCategoriesOrChildren().subscribe(
-      (categories: CategorySummary) => {
-        this.categories = categories.categories;
-      }
-    );
+  constructor(private catalogFilter: CatalogFilterService, private claims: ClaimsService) {}
+
+  selectCategory(key: string): void {
+    this.catalogFilter.setCategory(key);
   }
 
-  selectCategory(category: Category): void {
-    this.router.navigate(['/store', category.id]);
+  openClaims(event: Event): void {
+    event.preventDefault();
+    this.claims.open();
   }
 }

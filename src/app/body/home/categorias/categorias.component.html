@@ -1,0 +1,22 @@
+<section class="section" id="categorias">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow on-light">Explora por categoría</span>
+      <h2 class="reveal-title" appScrollReveal>Mobiliario para cada tipo de evento</h2>
+      <p>Desde bodas elegantes hasta cumpleaños infantiles y activaciones de marca.</p>
+    </div>
+    <div class="cat-grid">
+      <a href="#catalogo" class="cat-card reveal" [appScrollReveal]="i" *ngFor="let c of categories; let i = index" (click)="selectCategory(c.key)">
+        <img [src]="c.img" [alt]="c.label">
+        <div class="veil"></div>
+        <div class="content">
+          <h3>{{ c.label }}</h3>
+          <p>{{ c.desc }}</p>
+          <span class="go">Ver mobiliario
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

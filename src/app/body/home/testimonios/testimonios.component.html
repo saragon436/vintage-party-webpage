@@ -1,0 +1,20 @@
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow on-light">Confianza</span>
+      <h2 class="reveal-title" appScrollReveal>Lo que dicen quienes ya trabajaron con nosotros</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal" [appScrollReveal]="i" *ngFor="let t of testimonials; let i = index">
+        <p class="testi-quote">"{{ t.quote }}"</p>
+        <div class="testi-who">
+          <div class="testi-avatar">{{ t.initials }}</div>
+          <div>
+            <div class="testi-name">{{ t.name }}</div>
+            <div class="testi-role">{{ t.role }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

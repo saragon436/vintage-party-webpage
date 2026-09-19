@@ -1,56 +1,135 @@
-.navbar {
-  min-height: 24px;
-}
-
-.navbar-brand .logo {
-  height: 120px;
-}
-
-.nav-link {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #333;
-}
-
-.nav-link:hover {
-  color: var(--bg-primary);
-}
-
-/* Estilos para móvil */
-@media (max-width: 991px) {
-  .navbar {
-    position: fixed;
+header.site {
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
-    max-width: 100% !important; /* Ancho completo en móvil */
-    background-color: #fff;
-  }
-
-  .navbar-brand .logo {
-    height: 70px; /* Altura para móvil */
-  }
-
-  .navbar-nav {
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  .navbar-collapse {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: var(--bg-primary);
-    z-index: 999;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+    z-index: 40;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+}
+.nav-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 14px 24px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+}
+.brand img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 4px 14px -4px rgba(59, 20, 80, .35);
+}
+.brand-word {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--purple-800);
+    line-height: 1.05;
+}
+.brand-sub {
+    display: block;
+    font-size: 11.5px;
+    color: var(--muted);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 2px;
+}
+@media (max-width: 480px) {
+    .brand img { width: 58px; height: 58px; }
+    .brand-word { font-size: 20px; }
 }
 
-/* Estilos para desktop */
-@media (min-width: 992px) {
-  .navbar {
-    width: 70%;
-  }
+nav.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex: 1;
+}
+nav.links a {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--ink);
+    padding: 6px 2px;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+}
+nav.links a:hover {
+    color: var(--purple-700);
+    border-color: var(--coral);
+}
+
+.head-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.claims-pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--purple-800);
+    background: var(--lilac-100);
+    border: 1px solid var(--purple-200);
+    padding: 8px 14px;
+    border-radius: 99px;
+    white-space: nowrap;
+}
+.claims-pill:hover {
+    background: var(--purple-200);
+}
+@media (max-width: 760px) {
+    .claims-pill span { display: none; }
+    .claims-pill { padding: 8px; }
+}
+.icon-btn {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--lilac-100);
+    color: var(--purple-800);
+    transition: background .15s;
+}
+.icon-btn:hover {
+    background: var(--purple-200);
+}
+.badge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    min-width: 19px;
+    height: 19px;
+    padding: 0 4px;
+    border-radius: 99px;
+    background: var(--coral);
+    color: #fff;
+    font-size: 10.5px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+}
+@media (max-width: 960px) {
+    nav.links { display: none; }
+    .brand-sub { display: none; }
+    .head-actions { margin-left: auto; }
 }

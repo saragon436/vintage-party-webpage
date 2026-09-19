@@ -1,0 +1,117 @@
+<div class="claims-overlay" [class.show]="isOpen" (click)="close()"></div>
+<div class="claims-modal" [class.show]="isOpen">
+
+  <div class="claims-success" *ngIf="submitted">
+    <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="var(--purple-700)" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+    <h3 style="color:var(--purple-800);">Reclamo registrado</h3>
+    <div class="num">N° {{ claimNumber }}</div>
+    <p style="font-size:13px;color:var(--muted);max-width:380px;">Tienes derecho a recibir una respuesta en un plazo máximo de 30 días calendario, conforme al Código de Protección y Defensa del Consumidor (Ley N° 29571).</p>
+    <div style="display:flex;gap:10px;margin-top:8px;">
+      <button class="btn btn-ghost btn-sm" (click)="print()">Descargar / imprimir copia</button>
+      <button class="btn btn-purple btn-sm" (click)="close()">Cerrar</button>
+    </div>
+  </div>
+
+  <ng-container *ngIf="!submitted">
+    <div class="claims-head">
+      <div>
+        <h3>Libro de Reclamaciones Virtual</h3>
+        <p>Conforme al Código de Protección y Defensa del Consumidor — Ley N° 29571 y su reglamento.</p>
+      </div>
+      <button class="claims-close" (click)="close()" aria-label="Cerrar">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <div class="claims-body">
+      <div>
+        <div class="claims-section-title" style="margin-bottom:8px;">Datos del proveedor</div>
+        <div class="claims-provider">
+          Razón social: Vintage Party Perú S.A.C.<br>
+          RUC: 20601234567<br>
+          Dirección del establecimiento: Av. Los Álamos 456, San Juan de Miraflores, Lima
+        </div>
+      </div>
+
+      <div>
+        <div class="claims-section-title" style="margin-bottom:8px;">Tipo de solicitud</div>
+        <div class="claims-type-row">
+          <button type="button" class="claims-type-opt" [class.active]="claimType === 'reclamo'" (click)="selectReclamo()">
+            <strong>Reclamo</strong>
+            Disconformidad relacionada a los productos o al servicio de alquiler.
+          </button>
+          <button type="button" class="claims-type-opt" [class.active]="claimType === 'queja'" (click)="selectQueja()">
+            <strong>Queja</strong>
+            Malestar o disconformidad no relacionada a los productos, o con la atención.
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div class="claims-section-title" style="margin-bottom:8px;">Datos del consumidor</div>
+        <div class="claims-grid">
+          <div class="claims-field full">
+            <label>Nombres y apellidos *</label>
+            <input type="text" [(ngModel)]="form.nombre" name="nombre" placeholder="Nombre completo">
+          </div>
+          <div class="claims-field">
+            <label>Tipo de documento</label>
+            <select [(ngModel)]="form.tipoDoc" name="tipoDoc">
+              <option value="DNI">DNI</option>
+              <option value="CE">Carné de Extranjería</option>
+              <option value="Pasaporte">Pasaporte</option>
+            </select>
+          </div>
+          <div class="claims-field">
+            <label>N° de documento *</label>
+            <input type="text" [(ngModel)]="form.numDoc" name="numDoc" placeholder="00000000">
+          </div>
+          <div class="claims-field">
+            <label>Teléfono</label>
+            <input type="text" [(ngModel)]="form.telefono" name="telefono" placeholder="9XXXXXXXX">
+          </div>
+          <div class="claims-field">
+            <label>Correo electrónico *</label>
+            <input type="email" [(ngModel)]="form.email" name="email" placeholder="correo@ejemplo.com">
+          </div>
+          <div class="claims-field full">
+            <label>Domicilio</label>
+            <input type="text" [(ngModel)]="form.domicilio" name="domicilio" placeholder="Dirección de contacto">
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="claims-section-title" style="margin-bottom:8px;">Detalle</div>
+        <div class="claims-grid">
+          <div class="claims-field">
+            <label>Monto reclamado (S/, opcional)</label>
+            <input type="text" [(ngModel)]="form.monto" name="monto" placeholder="0.00">
+          </div>
+          <div class="claims-field">
+            <label>Mobiliario / servicio relacionado</label>
+            <input type="text" [(ngModel)]="form.producto" name="producto" placeholder="Ej: Cilindros blancos acanalados">
+          </div>
+          <div class="claims-field full">
+            <label>Descripción de los hechos *</label>
+            <textarea [(ngModel)]="form.detalle" name="detalle" placeholder="Describe lo ocurrido con el mayor detalle posible"></textarea>
+          </div>
+          <div class="claims-field full">
+            <label>Pedido concreto del consumidor *</label>
+            <textarea [(ngModel)]="form.pedido" name="pedido" placeholder="¿Qué solución esperas?"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <label class="claims-consent">
+        <input type="checkbox" [(ngModel)]="form.acepta" name="acepta" style="margin-top:2px;">
+        Declaro que la información consignada es verdadera y autorizo su uso para la atención de este reclamo, conforme a la Ley de Protección de Datos Personales.
+      </label>
+    </div>
+
+    <div class="claims-foot">
+      <div class="claims-legal-note">Al enviar, este reclamo debe registrarse en tu sistema con numeración correlativa y enviarte una copia automática por correo (según el reglamento) — en este prototipo solo se simula la generación del número y la copia.</div>
+      <button class="btn btn-purple" style="width:100%;" (click)="submit()">Enviar reclamo</button>
+    </div>
+  </ng-container>
+</div>

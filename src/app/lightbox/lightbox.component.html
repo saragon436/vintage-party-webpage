@@ -1,0 +1,11 @@
+<ng-container *ngIf="lightbox.state$ | async as state">
+  <div class="lightbox-overlay" [class.show]="state.open" (click)="close()">
+    <figure class="lightbox-figure" *ngIf="state.open" (click)="stopPropagation($event)">
+      <button class="lightbox-close" (click)="close()" aria-label="Cerrar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <img [src]="state.img" [alt]="state.alt">
+      <figcaption class="lightbox-caption">{{ state.alt }}</figcaption>
+    </figure>
+  </div>
+</ng-container>

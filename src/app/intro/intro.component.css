@@ -1,0 +1,102 @@
+.intro-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: var(--lilac-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .65s cubic-bezier(.65, 0, .35, 1);
+}
+.intro-overlay.curtain-up {
+    transform: translateY(-100%);
+    pointer-events: none;
+}
+.intro-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.intro-inner.pulse {
+    animation: intro-pulse .5s cubic-bezier(.34, 1.56, .64, 1);
+}
+@keyframes intro-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.035); }
+    100% { transform: scale(1); }
+}
+.intro-logo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 26px -12px rgba(59, 20, 80, .45);
+}
+
+.intro-scene {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 14px;
+    height: 118px;
+    margin-top: -4px;
+}
+.intro-piece {
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(.34, 1.56, .64, 1);
+    animation-duration: .5s;
+}
+.intro-cylinder-left { width: 46px; animation-name: intro-slide-left; animation-delay: 0s; }
+.intro-cylinder-right { width: 52px; animation-name: intro-slide-right; animation-delay: 1.0s; }
+.intro-panel-table { position: relative; width: 118px; display: flex; align-items: flex-end; justify-content: center; }
+.intro-panel { position: absolute; left: 50%; bottom: 0; width: 104px; z-index: 0; transform: translateX(-50%); animation-name: intro-drop-top; animation-delay: .5s; }
+.intro-shadow { position: absolute; left: 50%; bottom: 1px; width: 96px; height: 14px; border-radius: 50%; background: var(--purple-400); opacity: .4; transform: translateX(-50%) scale(1); transform-origin: center bottom; animation-name: intro-grow-rug; animation-delay: 1.5s; animation-duration: .5s; animation-timing-function: cubic-bezier(.34, 1.56, .64, 1); animation-fill-mode: both; z-index: 1; }
+.intro-table { position: relative; width: 96px; z-index: 2; animation-name: intro-settle; animation-delay: 1.5s; }
+
+@keyframes intro-slide-left { from { transform: translateX(-140px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+@keyframes intro-slide-right { from { transform: translateX(140px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+@keyframes intro-drop-top { from { transform: translateX(-50%) translateY(-120px); opacity: 0; } to { transform: translateX(-50%) translateY(0); opacity: 1; } }
+@keyframes intro-grow-rug { from { transform: translateX(-50%) scale(.25, .3); opacity: 0; } to { transform: translateX(-50%) scale(1, 1); opacity: .4; } }
+@keyframes intro-settle { from { transform: translateY(16px) scale(.82); opacity: 0; } to { transform: translateY(0) scale(1); opacity: 1; } }
+
+/* Camion que se retira cuando el montaje esta completo */
+.intro-truck-lane { position: relative; width: 100%; max-width: 340px; height: 40px; margin-top: 4px; overflow: visible; }
+.intro-truck-group { position: absolute; bottom: 0; left: 10px; width: 84px; opacity: 0; animation: intro-truck-exit 1s cubic-bezier(.5, 0, .75, 0) both; animation-delay: 2.0s; }
+.intro-truck-group .wheel { animation: intro-wheel-spin .35s linear infinite; }
+.intro-truck-group .speed-line { opacity: 0; animation: intro-speed-line .5s ease-out infinite; }
+.intro-truck-group .speed-line:nth-child(5) { animation-delay: .05s; }
+.intro-truck-group .speed-line:nth-child(6) { animation-delay: .15s; }
+@keyframes intro-truck-exit {
+    0% { transform: translateX(0); opacity: 0; }
+    8% { opacity: 1; }
+    75% { transform: translateX(230px); opacity: 1; }
+    100% { transform: translateX(320px); opacity: 0; }
+}
+@keyframes intro-wheel-spin { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+@keyframes intro-speed-line { 0% { opacity: 0; transform: translateX(6px); } 30% { opacity: .6; } 100% { opacity: 0; transform: translateX(-10px); } }
+
+.intro-tagline {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--purple-700);
+}
+.intro-dots { display: flex; gap: 8px; height: 10px; transition: opacity .3s ease; }
+.intro-dots.dots-hidden { opacity: 0; }
+.intro-dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--purple-700); animation: intro-dot-blink 1s ease-in-out infinite; display: block; }
+.intro-dots span:nth-child(2) { animation-delay: .15s; }
+.intro-dots span:nth-child(3) { animation-delay: .3s; }
+@keyframes intro-dot-blink { 0%, 80%, 100% { opacity: .25; transform: scale(.85); } 40% { opacity: 1; transform: scale(1); } }
+
+@media (max-width: 480px) {
+    .intro-scene { transform: scale(.85); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .intro-overlay { display: none !important; }
+}

@@ -1,18 +1,14 @@
-<div class="bg-main text-center py-3">
-    <h2 class="section-title">Galeria</h2>
-</div>
-<section class="galeria-section py-5">
-    <div class="container text-center">
-        <p class="section-subtitle mb-5">La decoración perfecta para momentos inolvidables.</p>
-        <div class="row g-4">
-            <div class="col-12 col-md-6" *ngFor="let item of galleryItems">
-                <div class="gallery-card" (click)="selectCategory(item.id); $event.preventDefault()">
-                    <img [src]="item.image" [alt]="item.title" class="card-img">
-                    <div class="card-overlay">
-                        <h4 class="card-title">{{ item.title }}</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
+<section class="section" style="padding-top:10px;">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow on-light">Galería</span>
+      <h2 class="reveal-title" appScrollReveal>Eventos decorados por Vintage Party</h2>
     </div>
+    <div class="gal-grid">
+      <img [src]="g.img" [alt]="g.alt" *ngFor="let g of images" (click)="open(g.img, g.alt)" style="cursor:zoom-in;">
+    </div>
+    <div style="text-align:center;margin-top:26px;">
+      <a href="https://instagram.com/vintagepartyperu" target="_blank" class="btn btn-ghost btn-sm">Síguenos &#64;vintagepartyperu</a>
+    </div>
+  </div>
 </section>

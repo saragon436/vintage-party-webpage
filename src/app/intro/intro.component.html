@@ -1,0 +1,79 @@
+<div class="intro-overlay" *ngIf="visible" [class.curtain-up]="phase === 'curtain'">
+  <div class="intro-inner" [class.pulse]="phase === 'pulse' || phase === 'curtain'">
+
+    <img class="intro-logo" src="images/logo-v.jpeg" alt="Vintage Party">
+
+    <div class="intro-scene" aria-hidden="true">
+      <!-- Cilindro izquierdo (mas bajo) -->
+      <svg class="intro-piece intro-cylinder-left" viewBox="0 0 50 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="25" cy="11" rx="19" ry="7" fill="var(--purple-200)" stroke="var(--purple-700)" stroke-width="3"/>
+        <path d="M6 11 V64" stroke="var(--purple-700)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M44 11 V64" stroke="var(--purple-700)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M6 64 Q25 72 44 64" stroke="var(--purple-700)" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+
+      <div class="intro-panel-table">
+        <!-- Panel tipo arco, cae desde arriba (backdrop) -->
+        <svg class="intro-piece intro-panel" viewBox="0 0 104 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 96 V46 A42 42 0 0 1 94 46 V96" stroke="var(--purple-400)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M4 96 H16" stroke="var(--purple-400)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M88 96 H100" stroke="var(--purple-400)" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <!-- sombra que crece bajo la mesa -->
+        <div class="intro-piece intro-shadow"></div>
+        <!-- Mesa normal y simple, para no sobrecargar la escena -->
+        <svg class="intro-piece intro-table" viewBox="0 0 96 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="8" width="88" height="9" rx="2" stroke="var(--purple-700)" stroke-width="4"/>
+          <path d="M16 17 V50" stroke="var(--purple-700)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M80 17 V50" stroke="var(--purple-700)" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <!-- Cilindro derecho (mas alto) -->
+      <svg class="intro-piece intro-cylinder-right" viewBox="0 0 56 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="28" cy="11" rx="21" ry="7.5" fill="var(--purple-200)" stroke="var(--purple-700)" stroke-width="3"/>
+        <path d="M7 11 V78" stroke="var(--purple-700)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M49 11 V78" stroke="var(--purple-700)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M7 78 Q28 86 49 78" stroke="var(--purple-700)" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- Camion que se retira cuando el montaje esta completo -->
+    <div class="intro-truck-lane" aria-hidden="true">
+      <svg class="intro-truck-group" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
+        <line class="speed-line" x1="0" y1="19" x2="11" y2="19" stroke="var(--purple-400)" stroke-width="3" stroke-linecap="round"/>
+        <line class="speed-line" x1="0" y1="26" x2="9" y2="26" stroke="var(--purple-400)" stroke-width="3" stroke-linecap="round"/>
+        <line class="speed-line" x1="0" y1="33" x2="7" y2="33" stroke="var(--purple-400)" stroke-width="3" stroke-linecap="round"/>
+
+        <ellipse cx="52" cy="45" rx="38" ry="3" fill="var(--purple-700)" opacity=".18"/>
+
+        <!-- caja de carga -->
+        <rect x="14" y="10" width="42" height="26" rx="3" fill="var(--purple-200)" stroke="var(--purple-700)" stroke-width="3"/>
+        <line x1="16" y1="20" x2="54" y2="20" stroke="var(--purple-700)" stroke-width="1.5" opacity=".45"/>
+
+        <!-- cabina -->
+        <path d="M56 36 V18 H70 L80 28 V36 Z" fill="var(--coral)" stroke="var(--purple-700)" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M70 20.5 L76.5 27.5 H70 Z" fill="#fff" opacity=".9"/>
+
+        <!-- parachoque -->
+        <rect x="12" y="35.5" width="70" height="3" rx="1.5" fill="var(--purple-700)"/>
+
+        <!-- ruedas (giran mientras se aleja) -->
+        <g class="wheel" style="transform-origin:26px 40px;">
+          <circle cx="26" cy="40" r="7" fill="#fff" stroke="var(--purple-700)" stroke-width="3"/>
+          <circle cx="26" cy="40" r="2.3" fill="var(--purple-700)"/>
+        </g>
+        <g class="wheel" style="transform-origin:68px 40px;">
+          <circle cx="68" cy="40" r="7" fill="#fff" stroke="var(--purple-700)" stroke-width="3"/>
+          <circle cx="68" cy="40" r="2.3" fill="var(--purple-700)"/>
+        </g>
+      </svg>
+    </div>
+
+    <p class="intro-tagline">Mobiliario para eventos</p>
+
+    <div class="intro-dots" [class.dots-hidden]="dotsHidden">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</div>

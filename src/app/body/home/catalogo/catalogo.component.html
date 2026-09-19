@@ -1,0 +1,55 @@
+<section class="section" style="background:var(--lilac-100);padding-top:80px;" id="catalogo">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow on-light">Catálogo</span>
+      <h2 class="reveal-title" appScrollReveal>Arma tu lista de mobiliario</h2>
+      <p>Agrega piezas a tu cotización; el catálogo completo se sigue cargando mientras avanzas.</p>
+    </div>
+
+    <div class="search-row">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" [(ngModel)]="searchQuery" (ngModelChange)="onSearchChange()" placeholder="Buscar mobiliario (ej. cilindro, barra, mesa)...">
+      <button class="search-clear" *ngIf="searchQuery" (click)="clearSearch()" aria-label="Limpiar búsqueda">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <div class="chip-row">
+      <button [class]="c.key === activeCategory ? 'chip active' : 'chip'" *ngFor="let c of categoryChips" (click)="setCategory(c.key)">{{ c.label }}</button>
+    </div>
+
+    <div class="prod-grid">
+      <div class="prod-card reveal" [appScrollReveal]="i" *ngFor="let p of visibleProducts; let i = index; trackBy: trackByProductId">
+        <div class="prod-media">
+          <img [src]="p.img" [alt]="p.name" (click)="zoom(p)" style="cursor:zoom-in;">
+          <span class="prod-tag">{{ p.categoryLabel }}</span>
+        </div>
+        <div class="prod-body">
+          <div class="prod-name">{{ p.name }}</div>
+          <div class="prod-cat">Alquiler para eventos</div>
+          <div class="prod-price">{{ p.priceLabel }}</div>
+          <div class="prod-cta">
+            <div class="stepper" *ngIf="p.qty > 0">
+              <button (click)="decrease(p)" aria-label="Quitar uno">−</button>
+              <span class="qty">{{ p.qty }} en tu lista</span>
+              <button (click)="increase(p)" aria-label="Agregar uno">+</button>
+            </div>
+            <button class="add-btn" *ngIf="p.qty === 0" (click)="addToCart(p)">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 5v14M5 12h14"/></svg>
+              Agregar a cotización
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="load-zone">
+      <p *ngIf="noResults">No encontramos mobiliario para "{{ searchQuery }}" — prueba con otra palabra o escríbenos por WhatsApp.</p>
+      <ng-container *ngIf="hasMore">
+        <p style="margin-bottom:14px;">Cargando más mobiliario a medida que avanzas…</p>
+        <button class="btn btn-ghost btn-sm" (click)="loadMore()">Cargar más</button>
+      </ng-container>
+      <p *ngIf="noMoreWithResults">Has visto todo el catálogo destacado de esta categoría — escríbenos por WhatsApp para el catálogo completo.</p>
+    </div>
+  </div>
+</section>

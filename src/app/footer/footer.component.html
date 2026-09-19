@@ -1,74 +1,48 @@
-<footer class="footer py-4 text-center">
-    <!-- Título -->
-    <h3 class="row footer-title mb-4 text-center py-3"><strong>¡Celebra cada momento!</strong></h3>
-
-    <!-- Decoración de luces -->
-    <div class="lights-decoration mb-2 mb-md-5"></div>
-
-    <!-- Contenido del footer -->
-    <div class="container">
-        <div class="row">
-            <!-- Columna 1: Logo y enlaces -->
-            <div class="col-md-3 text-md-start text-center mb-4 mb-md-0">
-                <img src="images/logo-v.jpeg" alt="Vintage Party Logo" class="footer-logo mb-3">
-                <ul class="list-unstyled">
-                    <li><a href="#quienes-somos" class="footer-link">Quienes Somos</a></li>
-                    <li><a href="#galeria" class="footer-link">Galeria</a></li>
-                    <li><a href="#contacto" class="footer-link">Contacto</a></li>
-                </ul>
-            </div>
-
-            <!-- Columna 2: Categorías -->
-            <div class="col-md-3 text-md-start text-center mb-4 mb-md-0">
-                <h5 class="footer-subtitle">Ver todas las categorias</h5>
-                <div class="row categories-container">
-                    <div class="col-6" *ngFor="let category of categories">
-                        <ul class="list-unstyled">
-                            <a href="#" class="waves-effect" (click)="selectCategory(category); $event.preventDefault()"
-                                class="category-link">
-                                {{ category.name }}
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Columna 3: Contactos -->
-            <div class="col-md-3 text-md-start text-center mb-4 mb-md-0">
-                <h5 class="footer-subtitle">Contactos</h5>
-                <ul class="list-unstyled mb-4">
-                    <li>
-                        <i class="bi bi-whatsapp me-2"></i>
-                        <a href="https://wa.me/51936942342" target="_blank" class="footer-link">Ventas 1 -
-                            936942342</a>
-                    </li>
-                    <li>
-                        <i class="bi bi-whatsapp me-2"></i>
-                        <a href="https://wa.me/51944566160" target="_blank" class="footer-link">Ventas 2 -
-                            944566160</a>
-                    </li>
-                    <li>
-                        <i class="bi bi-envelope me-2"></i>
-                        <a href="mailto:holavintage@vintageparty.com?subject=[Eventos] Contacto Online&body=Hola Vintage Party,%20Me gustaría ..." target="_blank" class="footer-link">holavintage&#64;vintageparty.com</a>
-                    </li>
-                </ul>
-                <h5 class="footer-subtitle mt-4">Horario de atención:</h5>
-                <p>Lunes a Viernes 9am a 6pm<br>Sábado de 9am a 1pm</p>
-                <p>Distrito de San Juan de Miraflores</p>
-            </div>
-
-            <!-- Columna 4: Instagram -->
-            <div class="col-md-3 text-md-start text-center">
-                <a href="https://instagram.com/vintagepartyperu" target="_blank" class="footer-link mt-3 d-block">
-                    <i class="bi bi-instagram me-2"></i>Vintage Party
-                </a>
-            </div>
+<footer class="site">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="brand-word" style="margin-bottom:10px;">Vintage Party</div>
+        <p>Alquiler de mobiliario vintage para eventos sociales, infantiles y corporativos en Lima y provincias.</p>
+        <div class="social-row">
+          <a href="https://instagram.com/vintagepartyperu" target="_blank" aria-label="Instagram">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg>
+          </a>
+          <a href="https://wa.me/51936942342" target="_blank" aria-label="WhatsApp">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </a>
         </div>
+      </div>
+      <div>
+        <h4>Categorías</h4>
+        <ul>
+          <li><a href="#catalogo" (click)="selectCategory('sociales')">Sociales</a></li>
+          <li><a href="#catalogo" (click)="selectCategory('infantiles')">Infantiles</a></li>
+          <li><a href="#catalogo" (click)="selectCategory('corporativos')">Corporativos</a></li>
+          <li><a href="#catalogo" (click)="selectCategory('carretas')">Carretas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#empresas">Trabaja con nosotros</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li>Av. Los Álamos 456, San Juan de Miraflores, Lima</li>
+          <li>+51 936 942 342</li>
+          <li>holavintage&#64;vintageparty.com</li>
+        </ul>
+      </div>
     </div>
-
-    <!-- Copyright -->
-    <div class="copyright mt-5 py-3">
-        <p>Copyright © - Designed by SM</p>
-        <p>{{fecha}}</p>
+    <div class="foot-bottom">
+      <span>© {{ year }} Vintage Party Perú — Mobiliario para eventos</span>
+      <a href="#top" (click)="openClaims($event)" style="color:rgba(255,255,255,0.85);text-decoration:underline;">Libro de Reclamaciones</a>
+      <span>Catálogo listo para integrarse vía API REST</span>
     </div>
+  </div>
 </footer>

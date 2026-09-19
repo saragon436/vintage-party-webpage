@@ -6,12 +6,12 @@
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #333;
+    color: var(--purple-900);
 }
 
 p {
     font-size: 1.1rem;
-    color: #666;
+    color: var(--muted);
 }
 
 /* Responsividad */

@@ -1,23 +1,32 @@
 import { Component } from '@angular/core';
+import { HeroComponent } from './hero/hero.component';
+import { NuevoCatalogoComponent } from './nuevo-catalogo/nuevo-catalogo.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
+import { CategoriasComponent } from './categorias/categorias.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
+import { ComoFuncionaComponent } from './como-funciona/como-funciona.component';
+import { EmpresasComponent } from './empresas/empresas.component';
+import { TestimoniosComponent } from './testimonios/testimonios.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { FaqComponent } from './faq/faq.component';
 import { ContactoComponent } from './contacto/contacto.component';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
-  imports: [QuienesSomosComponent, GaleriaComponent, ContactoComponent, CommonModule],
+  imports: [
+    HeroComponent,
+    QuienesSomosComponent,
+    NuevoCatalogoComponent,
+    CategoriasComponent,
+    CatalogoComponent,
+    ComoFuncionaComponent,
+    EmpresasComponent,
+    TestimoniosComponent,
+    GaleriaComponent,
+    FaqComponent,
+    ContactoComponent
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
-  carouselImages: string[] = [
-    'images/portada/banner_1.jpg',
-    'images/portada/banner_2.jpeg',
-    'images/portada/banner_3.jpeg',
-    'images/portada/banner_4.jpeg',
-    'images/portada/banner_5.jpeg',
-    'images/portada/banner_6.jpeg',
-    'images/portada/banner_7.jpeg'
-  ];
-}
+export class HomeComponent {}

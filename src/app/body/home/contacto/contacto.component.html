@@ -1,64 +1,83 @@
-<section class="contato-section py-5 text-center text-md-start">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Columna izquierda: Datos de contacto -->
-            <div class="col-md-7">
-                <h2>¿Te Interesa?</h2>
-                <h2 class="mb-4">Entra en contacto con nuestro equipo.</h2>
-                <div class="contact-info">
-                    <div class="row mb-4 mb-md-2">
-                        <div class="col-1 d-block d-md-none"></div>
-                        <div class="col-auto"><i class="bi bi-whatsapp"></i></div>
-                        <div class="col text-start">
-                            <a href="https://wa.me/51936942342" target="_blank" class="footer-link">Ventas 1 - 936942342</a>
-                        </div>
-                    </div>
-                    <div class="row mb-4 mb-md-2">
-                        <div class="col-1 d-block d-md-none"></div>
-                        <div class="col-auto"><i class="bi bi-whatsapp"></i></div>
-                        <div class="col text-start">
-                            <a href="https://wa.me/51944566160" target="_blank" class="footer-link">Ventas 2 - 944566160</a>
-                        </div>
-                    </div>
-                    <div class="row mb-4 mb-md-2">
-                        <div class="col-1 d-block d-md-none"></div>
-                        <div class="col-auto"><i class="bi bi-envelope"></i></div>
-                        <div class="col text-start">
-                            <a href="mailto:holavintage@vintageparty.com?subject=[Eventos] Contacto Online&body=Hola Vintage Party,%20Me gustaría ..." target="_blank" class="footer-link">holavintage&#64;vintageparty.com</a>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-4 mb-md-2">
-                        <div class="col-1 d-block d-md-none"></div>
-                        <div class="col-auto">
-                            <i class="bi bi-clock"></i>
-                        </div>
-                        <div class="col text-start"><strong>Horario de Atención:</strong><br>De Lunes a
-                            Viernes 9am a 6pm;<br>Sábado de 9am a 1pm
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-1 d-block d-md-none"></div>
-                        <div class="col-auto">
-                            <i class="bi bi-geo-alt"></i>
-                        </div>
-                        <div class="col text-start">
-                            San Juan de Miraflores
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 d-block d-md-none mb-5"></div>
-            <!-- Columna derecha: Texto y redes sociales -->
-            <div class="col-md-5 text-center">
-                <div class="social-box text-center text-md-end">
-
-                    <p>Accede a nuestras redes sociales!</p>
-                    <a href="https://instagram.com/vintagepartyperu" target="_blank" class="social-link">
-                        <i class="bi bi-instagram me-2"></i>vintagepartyperu
-                    </a>
-                </div>
-            </div>
-        </div>
+<section class="section" id="contacto">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow on-light">Contacto</span>
+      <h2 class="reveal-title" appScrollReveal>Cuéntanos sobre tu evento</h2>
+      <p>Completa el formulario o escríbenos directo — respondemos el mismo día.</p>
     </div>
+
+    <div class="contact-grid">
+      <div class="contact-form-card reveal" appScrollReveal>
+        <div class="contact-success" *ngIf="submitted">
+          <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="var(--purple-700)" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+          <h3 style="color:var(--purple-800);">¡Gracias, {{ form.nombre }}!</h3>
+          <p style="font-size:13.5px;color:var(--muted);max-width:360px;">Recibimos tu mensaje sobre tu evento. Te contactaremos a la brevedad a {{ form.email }}.</p>
+          <a class="btn btn-purple btn-sm" [href]="whatsappHref" target="_blank">Adelantar por WhatsApp</a>
+        </div>
+
+        <ng-container *ngIf="!submitted">
+          <div class="contact-form-grid">
+            <div class="contact-field">
+              <label>Nombre *</label>
+              <input type="text" [(ngModel)]="form.nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="contact-field">
+              <label>Teléfono</label>
+              <input type="text" [(ngModel)]="form.telefono" name="telefono" placeholder="9XXXXXXXX">
+            </div>
+            <div class="contact-field">
+              <label>Correo *</label>
+              <input type="email" [(ngModel)]="form.email" name="email" placeholder="correo@ejemplo.com">
+            </div>
+            <div class="contact-field">
+              <label>Tipo de evento</label>
+              <select [(ngModel)]="form.tipoEvento" name="tipoEvento">
+                <option value="Social">Social (boda, XV años, aniversario)</option>
+                <option value="Infantil">Infantil</option>
+                <option value="Corporativo">Corporativo</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="contact-field full">
+              <label>Fecha estimada del evento</label>
+              <input type="date" [(ngModel)]="form.fecha" name="fecha">
+            </div>
+            <div class="contact-field full">
+              <label>Mensaje *</label>
+              <textarea [(ngModel)]="form.mensaje" name="mensaje" placeholder="Cuéntanos el lugar, el estilo y el mobiliario que buscas"></textarea>
+            </div>
+          </div>
+          <div class="contact-form-note">Este formulario está listo para conectarse a tu correo o CRM (ej. <code>POST /api/contacto</code>) — en este prototipo el envío solo se simula.</div>
+          <button class="btn btn-primary" style="width:100%;" (click)="submit()">Enviar mensaje</button>
+        </ng-container>
+      </div>
+
+      <div class="contact-info-card reveal" [appScrollReveal]="1">
+        <h4>Escríbenos directo</h4>
+        <div class="contact-info-row">
+          <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+          <div>
+            <a href="https://wa.me/51936942342" target="_blank">Ventas 1 — +51 936 942 342</a><br>
+            <a href="https://wa.me/51944566160" target="_blank">Ventas 2 — +51 944 566 160</a>
+          </div>
+        </div>
+        <div class="contact-info-row">
+          <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg></span>
+          <a href="mailto:holavintage@vintageparty.com">holavintage&#64;vintageparty.com</a>
+        </div>
+        <div class="contact-info-row">
+          <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+          <span>Lunes a viernes 9am–6pm<br>Sábado 9am–1pm</span>
+        </div>
+        <div class="contact-info-row">
+          <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M12 22s7-7.58 7-12A7 7 0 0 0 5 10c0 4.42 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+          <span>Av. Los Álamos 456, San Juan de Miraflores, Lima</span>
+        </div>
+        <div class="contact-info-row">
+          <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></span>
+          <a href="https://instagram.com/vintagepartyperu" target="_blank">&#64;vintagepartyperu</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

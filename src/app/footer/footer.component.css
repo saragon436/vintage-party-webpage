@@ -1,98 +1,82 @@
-.footer {
-    font-family: 'Gilroy-Light' !important;
-    font-weight: 300;
-    font-size: 15px;
+footer.site {
+    background: var(--purple-900);
+    color: rgba(255, 255, 255, 0.82);
+    padding: 64px 0 28px;
+    width: 100%;
+}
+.foot-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+@media (max-width: 820px) {
+    .foot-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+    .foot-grid { grid-template-columns: 1fr; }
+}
+footer.site h4 {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+footer.site .brand-word {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+footer.site p {
+    font-size: 13.5px;
     line-height: 1.6;
-    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
 }
-
-.footer-title {
-    color: #333;
-    background-color: var(--bg-secundary-2);
-}
-
-.lights-decoration {
-    background-image: url('/images/lights-decoration.png');
-    background-repeat: repeat-x;
-    background-size: contain;
-    width: 100%;
-    padding-top: 0px;
-    padding-bottom: 80px;
-    text-align: center;
-    display: flow-root;
-}
-
-.footer-logo {
-    height: 80px;    
-}
-
-.footer-link {
-    color: #333;
-    text-decoration: none;
-}
-
-.footer-link:hover {
-    color: #17a2b8;
-}
-
-.footer-subtitle {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-.list-unstyled li {
-    margin-bottom: 0.5rem;
-    color: #555;
-}
-
-.copyright p {
+footer.site ul {
+    list-style: none;
     margin: 0;
-    font-size: 0.9rem;
-    color: #777;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-
-a {
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    color: #606060;
-    text-decoration: none;
-    background-color: transparent;
+footer.site a {
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.78);
 }
-
-/* Responsividad */
-@media (max-width: 767px) {
-    .footer{
-        width: 100%;
-    }
-    .footer-title {
-        font-size: 2rem;
-    }
-
-    .footer-logo {
-        height: 60px;
-    }
-
-    .footer-subtitle {
-        font-size: 1.1rem;
-    }
-
-    .list-unstyled li {
-        font-size: 0.9rem;
-    }
-
-    .copyright p {
-        font-size: 0.8rem;
-    }
-
-    .lights-decoration {
-        padding-bottom: 40px;
-    }
+footer.site a:hover {
+    color: #fff;
+}
+footer.site li {
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.78);
+}
+.foot-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.55);
+}
+.social-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+.social-row a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-row a:hover {
+    background: rgba(255, 255, 255, 0.2);
 }

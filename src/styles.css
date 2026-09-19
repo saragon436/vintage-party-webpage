@@ -1,28 +1,59 @@
 @import url('assets/scss/font.scss');
+
 :root {
-    --bg-primary: #9C46C2;
-    --bg-secundary: #F9E5FF;
-    --bg-secundary-2: #CDA2D4;
-    --font-title-bold: 'Arima-Bold';
+    /* Colores exactos muestreados de public/images/logo-v.jpeg (logo real "Vintage Party") */
+    --purple-900: #3B1450;
+    --purple-800: #551C74;
+    --purple-700: #9030BC;
+    --purple-600: #9440C6;
+    --purple-400: #B880C4;
+    --purple-200: #E4CDF2;
+    --lilac-100: #F9E5FF;
+    --lilac-50: #FBF4FE;
+    --coral: #FF5D8A;
+    --coral-dark: #E23F6B;
+    --gold: #F0AC3E;
+    --ink: #241A2E;
+    --muted: #786E86;
+    --line: #EBDCF5;
+    --radius-lg: 22px;
+    --radius-md: 14px;
+    --shadow-soft: 0 18px 40px -18px rgba(59, 20, 80, 0.28);
+    --shadow-card: 0 10px 26px -14px rgba(59, 20, 80, 0.28);
+
+    /* Alias hacia el sistema de color anterior, para no romper /store, /sitemap y /search */
+    --bg-primary: var(--purple-700);
+    --bg-secundary: var(--lilac-100);
+    --bg-secundary-2: var(--purple-400);
+    --font-title-bold: 'Playfair Display';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    /* background: var(--bg-secundary) !important; */
-    background: linear-gradient(to bottom,#fff 15%, var(--bg-secundary) 45%, #fff 55%) !important;
+    background: linear-gradient(to bottom, #fff 15%, var(--bg-secundary) 45%, #fff 55%) !important;
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: 'Gilroy-Light' !important;
+    font-family: 'Sora', sans-serif !important;
+    color: var(--ink);
 }
-nav{
+
+nav {
     font-size: 16px;
 }
 
-nav ul li a{
+nav ul li a {
     font-weight: bold !important;
 }
 
-app-quienes-somos section, app-galeria section, app-contacto section {
+app-quienes-somos section, app-contacto section {
     padding: 0 15%;
 }
 
@@ -32,6 +63,7 @@ app-quienes-somos h2 {
 
 h1, h2, h3, h4, h5 {
     font-family: var(--font-title-bold) !important;
+    font-weight: 700;
 }
 
 h2 {
@@ -47,7 +79,7 @@ h3 > strong {
     font-size: 3.2rem;
 }
 
-h5{
+h5 {
     font-weight: 600;
     font-size: 1.1rem !important;
 }
@@ -64,9 +96,221 @@ h5{
     font-family: var(--font-title-bold) !important;
 }
 
-/* Responsividad */
+/* Responsividad de secciones heredadas (Quienes Somos / Contacto viejo, si se usa) */
 @media (max-width: 767px) {
-    app-quienes-somos section, app-galeria section, app-contacto section {
+    app-quienes-somos section, app-contacto section {
         padding: 0;
+    }
+}
+
+/**************************************************************************/
+/* Sistema de diseño compartido de la landing (hero, catálogo, carrito…)  */
+/**************************************************************************/
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--coral);
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    padding: 7px 14px;
+    border-radius: 99px;
+}
+
+.eyebrow.on-light {
+    color: var(--purple-700);
+    background: var(--lilac-100);
+    border: 1px solid var(--purple-200);
+}
+
+.section {
+    padding: 88px 0;
+}
+
+.section-head {
+    max-width: 640px;
+    margin: 0 auto 44px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.section-head h2 {
+    font-size: 38px !important;
+    line-height: 1.15;
+    color: var(--purple-900);
+}
+
+.section-head p {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+    .section {
+        padding: 56px 0;
+    }
+    .section-head h2 {
+        font-size: 28px !important;
+    }
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 14px 26px;
+    border-radius: 99px;
+    border: none;
+    cursor: pointer;
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    white-space: nowrap;
+    font-family: 'Sora', sans-serif;
+    text-decoration: none;
+}
+.btn:active {
+    transform: scale(0.97);
+}
+.btn-primary {
+    background: var(--coral);
+    color: #fff;
+    box-shadow: 0 12px 24px -10px rgba(226, 63, 107, 0.55);
+}
+.btn-primary:hover {
+    background: var(--coral-dark);
+    color: #fff;
+}
+.btn-outline-light {
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    color: #fff;
+    background: transparent;
+}
+.btn-outline-light:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+.btn-purple {
+    background: var(--purple-700);
+    color: #fff;
+}
+.btn-purple:hover {
+    background: var(--purple-800);
+    color: #fff;
+}
+.btn-ghost {
+    border: 1.5px solid var(--purple-200);
+    color: var(--purple-700);
+    background: #fff;
+}
+.btn-ghost:hover {
+    background: var(--lilac-100);
+}
+.btn-sm {
+    padding: 9px 16px;
+    font-size: 13.5px;
+}
+
+/**************************************************************************/
+/* Scroll reveal (usado por appScrollReveal en toda la landing)           */
+/**************************************************************************/
+.reveal {
+    opacity: 0;
+    transform: translateY(36px);
+    transition: opacity .6s ease, transform .6s cubic-bezier(.34, 1.56, .64, 1);
+    transition-delay: var(--reveal-delay, 0s);
+}
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+.reveal-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    width: 64px;
+    background: var(--coral);
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform .6s ease .2s;
+}
+.reveal-title.is-visible::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.reveal-pop {
+    opacity: 0;
+    transform: scale(.7);
+    transition: opacity .5s ease, transform .5s cubic-bezier(.34, 1.56, .64, 1);
+    transition-delay: var(--reveal-delay, 0s);
+}
+.reveal-pop.is-visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@keyframes pop-bump {
+    0% { transform: scale(.85); }
+    60% { transform: scale(1.08); }
+    100% { transform: scale(1); }
+}
+.pop-bump {
+    animation: pop-bump .45s cubic-bezier(.34, 1.56, .64, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal, .reveal-pop, .reveal-title::after {
+        transition: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    .pop-bump {
+        animation: none !important;
+    }
+}
+
+/**************************************************************************/
+/* Vista de impresion para "Descargar PDF" de la cotizacion               */
+/**************************************************************************/
+.print-quote {
+    display: none;
+}
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .print-quote, .print-quote * {
+        visibility: visible;
+    }
+    .print-quote {
+        display: block !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 32px;
     }
 }

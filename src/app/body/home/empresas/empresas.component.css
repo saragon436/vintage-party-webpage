@@ -1,0 +1,60 @@
+.biz {
+    background: linear-gradient(120deg, var(--purple-900), var(--purple-700));
+    border-radius: 28px;
+    padding: 52px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    align-items: center;
+    color: #fff;
+}
+@media (max-width: 900px) {
+    .biz { grid-template-columns: 1fr; padding: 34px 24px; }
+}
+.biz h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+.biz p.lead {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 15.5px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+.biz ul {
+    list-style: none;
+    margin: 0 0 26px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.biz li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.92);
+}
+.biz-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 18px;
+    padding: 22px;
+}
+.biz-card h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.biz-card .api-tag {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #F5E9FB;
+    margin-top: 8px;
+}
