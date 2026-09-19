@@ -1,0 +1,74 @@
+<footer class="footer py-4 text-center">
+    <!-- Título -->
+    <h3 class="row footer-title mb-4 text-center py-3"><strong>¡Celebra cada momento!</strong></h3>
+
+    <!-- Decoración de luces -->
+    <div class="lights-decoration mb-2 mb-md-5"></div>
+
+    <!-- Contenido del footer -->
+    <div class="container">
+        <div class="row">
+            <!-- Columna 1: Logo y enlaces -->
+            <div class="col-md-3 text-md-start text-center mb-4 mb-md-0">
+                <img src="images/logo-v.jpeg" alt="Vintage Party Logo" class="footer-logo mb-3">
+                <ul class="list-unstyled">
+                    <li><a href="#quienes-somos" class="footer-link">Quienes Somos</a></li>
+                    <li><a href="#galeria" class="footer-link">Galeria</a></li>
+                    <li><a href="#contacto" class="footer-link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 2: Categorías -->
+            <div class="col-md-3 text-md-start text-center mb-4 mb-md-0">
+                <h5 class="footer-subtitle">Ver todas las categorias</h5>
+                <div class="row categories-container">
+                    <div class="col-6" *ngFor="let category of categories">
+                        <ul class="list-unstyled">
+                            <a href="#" class="waves-effect" (click)="selectCategory(category); $event.preventDefault()"
+                                class="category-link">
+                                {{ category.name }}
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna 3: Contactos -->
+            <div class="col-md-3 text-md-start text-center mb-4 mb-md-0">
+                <h5 class="footer-subtitle">Contactos</h5>
+                <ul class="list-unstyled mb-4">
+                    <li>
+                        <i class="bi bi-whatsapp me-2"></i>
+                        <a href="https://wa.me/51936942342" target="_blank" class="footer-link">Ventas 1 -
+                            936942342</a>
+                    </li>
+                    <li>
+                        <i class="bi bi-whatsapp me-2"></i>
+                        <a href="https://wa.me/51944566160" target="_blank" class="footer-link">Ventas 2 -
+                            944566160</a>
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope me-2"></i>
+                        <a href="mailto:holavintage@vintageparty.com?subject=[Eventos] Contacto Online&body=Hola Vintage Party,%20Me gustaría ..." target="_blank" class="footer-link">holavintage&#64;vintageparty.com</a>
+                    </li>
+                </ul>
+                <h5 class="footer-subtitle mt-4">Horario de atención:</h5>
+                <p>Lunes a Viernes 9am a 6pm<br>Sábado de 9am a 1pm</p>
+                <p>Distrito de San Juan de Miraflores</p>
+            </div>
+
+            <!-- Columna 4: Instagram -->
+            <div class="col-md-3 text-md-start text-center">
+                <a href="https://instagram.com/vintagepartyperu" target="_blank" class="footer-link mt-3 d-block">
+                    <i class="bi bi-instagram me-2"></i>Vintage Party
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright mt-5 py-3">
+        <p>Copyright © - Designed by SM</p>
+        <p>{{fecha}}</p>
+    </div>
+</footer>

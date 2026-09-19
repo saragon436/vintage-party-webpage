@@ -1,0 +1,56 @@
+.navbar {
+  min-height: 24px;
+}
+
+.navbar-brand .logo {
+  height: 120px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: var(--bg-primary);
+}
+
+/* Estilos para móvil */
+@media (max-width: 991px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+    max-width: 100% !important; /* Ancho completo en móvil */
+    background-color: #fff;
+  }
+
+  .navbar-brand .logo {
+    height: 70px; /* Altura para móvil */
+  }
+
+  .navbar-nav {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-primary);
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Estilos para desktop */
+@media (min-width: 992px) {
+  .navbar {
+    width: 70%;
+  }
+}

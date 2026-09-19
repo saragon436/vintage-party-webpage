@@ -1,0 +1,43 @@
+/* Ensure icons and text are properly spaced */
+.gap-3 span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;    
+}
+
+span{
+    line-height: 35px;
+}
+.search-container {
+    min-height: 65px;
+    background-color: var(--bg-primary);
+}
+
+.search-container > div {    
+    width: 80%;    
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 767px) {
+    span {
+        font-size: 0.9rem;
+    }
+
+    .input-group {
+        width: 100% !important;
+        /* Full width on mobile */
+    }
+
+    .search-container > div {    
+        width: 100%;    
+    }
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.contato-section {
+    background-color: var(--bg-primary);
+    color: #fff;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info i {
+    color: #fff;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.contact-info a:hover {
+    font-weight: bold;
+}
+
+.highlight {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.social-box {
+    background-color: #e6f0fa;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-box p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.social-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.social-link:hover {
+    color: var(--bg-primary);
+}
+
+.social-link i {
+    color: var(--bg-primary);
+}
+
+/* Responsividad */
+@media (max-width: 767px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+    }
+
+    .highlight {
+        font-size: 2rem;
+    }
+
+    .social-box {
+        margin-top: 2rem;
+    }
+}

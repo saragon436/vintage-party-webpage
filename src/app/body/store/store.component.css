@@ -1,0 +1,138 @@
+.container-store{
+  width: 80%;
+}
+
+.category-sidebar {
+  background-color: var(--bg-primary);
+  color: #fff;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.category-sidebar h6 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.category-sidebar ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
+
+.category-sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.category-sidebar ul li a:hover,
+.category-sidebar ul li a.active {
+  color: #e6f0fa; /* Color más claro para el hover y la categoría seleccionada */
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 0.85rem;
+  border-radius: 5px;
+}
+
+.btn-outline-info {
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+/* Responsividad */
+@media (max-width: 767px) {
+  app-search {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  }
+  .separate{
+    padding-top: 75px;
+  }
+  .container-store{
+    width: 100%;  
+  }
+
+  .category-sidebar {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+  }
+
+  .category-sidebar h6 {
+    font-size: 1rem;
+  }
+
+  .category-sidebar ul li {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .card-img-top {
+    height: 120px;
+  }
+
+  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+}

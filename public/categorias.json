@@ -1,0 +1,1420 @@
+[
+  {
+    "type": "category",
+    "name": "CARRETAS",
+    "id": 1,
+    "product": [
+      {
+        "type": "product",
+        "name": "WhatsApp Image 2024-06-06 at 8.51.56 AM.jpeg",
+        "id": 1,
+        "url": "/categoria/CARRETAS/WhatsApp Image 2024-06-06 at 8.51.56 AM.jpeg"
+      },
+      {
+        "type": "product",
+        "name": "WhatsApp Image 2024-08-21 at 11.00.39 AM.jpeg",
+        "id": 2,
+        "url": "/categoria/CARRETAS/WhatsApp Image 2024-08-21 at 11.00.39 AM.jpeg"
+      },
+      {
+        "type": "product",
+        "name": "WhatsApp Image 2025-01-10 at 3.12.48 PM (1).jpeg",
+        "id": 3,
+        "url": "/categoria/CARRETAS/WhatsApp Image 2025-01-10 at 3.12.48 PM (1).jpeg"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "CORPORTATIVOS",
+    "id": 2,
+    "product": [
+      {
+        "type": "category",
+        "name": "DECORATIVOS",
+        "id": 3,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-07 at 8.07.46 PM.jpeg",
+            "id": 4,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-01-07 at 8.07.46 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-08 at 11.17.41 AM.jpeg",
+            "id": 5,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-02-08 at 11.17.41 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-17 at 2.44.19 PM.jpeg",
+            "id": 6,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-02-17 at 2.44.19 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-20 at 12.34.33 PM.jpeg",
+            "id": 7,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-03-20 at 12.34.33 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-08 at 11.50.16 AM.jpeg",
+            "id": 8,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-05-08 at 11.50.16 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 9.45.12 PM (1).jpeg",
+            "id": 9,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-05-15 at 9.45.12 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 9.45.12 PM.jpeg",
+            "id": 10,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-05-15 at 9.45.12 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 9.45.13 PM (1).jpeg",
+            "id": 11,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-05-15 at 9.45.13 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 9.45.13 PM.jpeg",
+            "id": 12,
+            "url": "/categoria/CORPORTATIVOS/DECORATIVOS/WhatsApp Image 2025-05-15 at 9.45.13 PM.jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "INFANTILES",
+    "id": 4,
+    "product": [
+      {
+        "type": "category",
+        "name": "ADICIONALES",
+        "id": 5,
+        "product": [
+          {
+            "type": "category",
+            "name": "ARBOLITOS",
+            "id": 6,
+            "product": [
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2024-07-05 at 10.32.03 AM.jpeg",
+                "id": 13,
+                "url": "/categoria/INFANTILES/ADICIONALES/ARBOLITOS/WhatsApp Image 2024-07-05 at 10.32.03 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-02-01 at 10.41.19 AM.jpeg",
+                "id": 14,
+                "url": "/categoria/INFANTILES/ADICIONALES/ARBOLITOS/WhatsApp Image 2025-02-01 at 10.41.19 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-05-15 at 8.16.14 PM.jpeg",
+                "id": 15,
+                "url": "/categoria/INFANTILES/ADICIONALES/ARBOLITOS/WhatsApp Image 2025-05-15 at 8.16.14 PM.jpeg"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "name": "ATRILES",
+            "id": 7,
+            "product": [
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2021-10-06 at 11.51.19 AM (3).jpeg",
+                "id": 16,
+                "url": "/categoria/INFANTILES/ADICIONALES/ATRILES/WhatsApp Image 2021-10-06 at 11.51.19 AM (3).jpeg"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "name": "BARBIE",
+            "id": 8,
+            "product": [
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-04-09 at 11.37.36 AM (1).jpeg",
+                "id": 17,
+                "url": "/categoria/INFANTILES/ADICIONALES/BARBIE/WhatsApp Image 2025-04-09 at 11.37.36 AM (1).jpeg"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "name": "EDIFICIOS",
+            "id": 9,
+            "product": [
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-02-20 at 10.15.53 AM.jpeg",
+                "id": 18,
+                "url": "/categoria/INFANTILES/ADICIONALES/EDIFICIOS/WhatsApp Image 2025-02-20 at 10.15.53 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-04-25 at 9.36.21 AM (1).jpeg",
+                "id": 19,
+                "url": "/categoria/INFANTILES/ADICIONALES/EDIFICIOS/WhatsApp Image 2025-04-25 at 9.36.21 AM (1).jpeg"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "name": "PLAYA",
+            "id": 10,
+            "product": [
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2024-02-22 at 8.22.21 AM.jpeg",
+                "id": 20,
+                "url": "/categoria/INFANTILES/ADICIONALES/PLAYA/WhatsApp Image 2024-02-22 at 8.22.21 AM.jpeg"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "name": "PORTADONUTS",
+            "id": 11,
+            "product": [
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-03-15 at 11.09.11 AM (1).jpeg",
+                "id": 21,
+                "url": "/categoria/INFANTILES/ADICIONALES/PORTADONUTS/WhatsApp Image 2025-03-15 at 11.09.11 AM (1).jpeg"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "name": "SAFARI",
+            "id": 12,
+            "product": [
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2024-10-23 at 10.16.30 PM.jpeg",
+                "id": 22,
+                "url": "/categoria/INFANTILES/ADICIONALES/SAFARI/WhatsApp Image 2024-10-23 at 10.16.30 PM.jpeg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "CARRETAS",
+        "id": 13,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-06-06 at 8.51.56 AM.jpeg",
+            "id": 23,
+            "url": "/categoria/INFANTILES/CARRETAS/WhatsApp Image 2024-06-06 at 8.51.56 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 3.12.48 PM (1).jpeg",
+            "id": 24,
+            "url": "/categoria/INFANTILES/CARRETAS/WhatsApp Image 2025-01-10 at 3.12.48 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-25 at 9.36.21 AM.jpeg",
+            "id": 25,
+            "url": "/categoria/INFANTILES/CARRETAS/WhatsApp Image 2025-04-25 at 9.36.21 AM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "FONDOS",
+        "id": 14,
+        "product": [
+          {
+            "type": "category",
+            "name": "PACK",
+            "id": 15,
+            "product": [
+              {
+                "type": "product",
+                "name": "170714415_2999649823598140_1369893009246807834_n.jpg",
+                "id": 26,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/170714415_2999649823598140_1369893009246807834_n.jpg"
+              },
+              {
+                "type": "product",
+                "name": "53714891818_43fc05d87c_o.jpg",
+                "id": 27,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/53714891818_43fc05d87c_o.jpg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2024-07-17 at 10.23.16 AM.jpeg",
+                "id": 28,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2024-07-17 at 10.23.16 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2024-10-23 at 9.09.00 PM (2).jpeg",
+                "id": 29,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2024-10-23 at 9.09.00 PM (2).jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2024-11-09 at 11.55.53 AM.jpeg",
+                "id": 30,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2024-11-09 at 11.55.53 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2024-11-09 at 9.00.18 AM.jpeg",
+                "id": 31,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2024-11-09 at 9.00.18 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-01-02 at 11.45.33 PM.jpeg",
+                "id": 32,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-01-02 at 11.45.33 PM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-01-03 at 12.38.37 PM.jpeg",
+                "id": 33,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-01-03 at 12.38.37 PM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-01-03 at 4.14.41 PM (1).jpeg",
+                "id": 34,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-01-03 at 4.14.41 PM (1).jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-01-04 at 5.45.17 PM.jpeg",
+                "id": 35,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-01-04 at 5.45.17 PM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-01-04 at 5.45.19 PM.jpeg",
+                "id": 36,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-01-04 at 5.45.19 PM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-01-04 at 6.04.37 PM.jpeg",
+                "id": 37,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-01-04 at 6.04.37 PM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-02-08 at 10.03.43 AM.jpeg",
+                "id": 38,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-02-08 at 10.03.43 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-03-19 at 9.17.57 AM.jpeg",
+                "id": 39,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-03-19 at 9.17.57 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-03-29 at 5.18.45 PM.jpeg",
+                "id": 40,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-03-29 at 5.18.45 PM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-04-03 at 11.24.36 AM.jpeg",
+                "id": 41,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-04-03 at 11.24.36 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-04-25 at 9.36.22 AM.jpeg",
+                "id": 42,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-04-25 at 9.36.22 AM.jpeg"
+              },
+              {
+                "type": "product",
+                "name": "WhatsApp Image 2025-04-26 at 11.26.29 AM.jpeg",
+                "id": 43,
+                "url": "/categoria/INFANTILES/FONDOS/PACK/WhatsApp Image 2025-04-26 at 11.26.29 AM.jpeg"
+              }
+            ]
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-03-11 at 5.18.29 PM.jpeg",
+            "id": 44,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2021-03-11 at 5.18.29 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-05-10 at 8.56.22 AM.jpeg",
+            "id": 45,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2021-05-10 at 8.56.22 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-06-21 at 10.51.02 AM.jpeg",
+            "id": 46,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2021-06-21 at 10.51.02 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-02-08 at 12.58.05 PM.jpeg",
+            "id": 47,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2022-02-08 at 12.58.05 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-06-17 at 8.36.42 AM.jpeg",
+            "id": 48,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2022-06-17 at 8.36.42 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-07-12 at 10.40.20 PM.jpeg",
+            "id": 49,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2022-07-12 at 10.40.20 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-01-03 at 11.25.30 AM.jpeg",
+            "id": 50,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-01-03 at 11.25.30 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-07-10 at 11.19.09 AM.jpeg",
+            "id": 51,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-07-10 at 11.19.09 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-05 at 9.46.44 AM.jpeg",
+            "id": 52,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-08-05 at 9.46.44 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-05 at 9.53.16 AM.jpeg",
+            "id": 53,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-08-05 at 9.53.16 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 10.22.10 PM (4).jpeg",
+            "id": 54,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-10-23 at 10.22.10 PM (4).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 10.22.10 PM.jpeg",
+            "id": 55,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-10-23 at 10.22.10 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 9.08.49 PM (1).jpeg",
+            "id": 56,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-10-23 at 9.08.49 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 9.08.49 PM.jpeg",
+            "id": 57,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-10-23 at 9.08.49 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 9.09.01 PM.jpeg",
+            "id": 58,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-10-23 at 9.09.01 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 9.09.06 PM (1).jpeg",
+            "id": 59,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-10-23 at 9.09.06 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-10 at 10.46.01 AM.jpeg",
+            "id": 60,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2024-11-10 at 10.46.01 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-21 at 12.19.15 PM.jpeg",
+            "id": 61,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-01-21 at 12.19.15 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-13 at 10.07.44 AM.jpeg",
+            "id": 62,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-02-13 at 10.07.44 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-17 at 2.55.30 PM.jpeg",
+            "id": 63,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-02-17 at 2.55.30 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-09 at 11.37.36 AM (2).jpeg",
+            "id": 64,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-04-09 at 11.37.36 AM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-26 at 10.48.27 AM.jpeg",
+            "id": 65,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-04-26 at 10.48.27 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-26 at 9.42.02 AM.jpeg",
+            "id": 66,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-04-26 at 9.42.02 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-30 at 11.22.37 AM.jpeg",
+            "id": 67,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-04-30 at 11.22.37 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.35.23 PM (2).jpeg",
+            "id": 68,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-05-15 at 7.35.23 PM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.35.23 PM (3).jpeg",
+            "id": 69,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-05-15 at 7.35.23 PM (3).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.35.23 PM.jpeg",
+            "id": 70,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-05-15 at 7.35.23 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 8.16.13 PM.jpeg",
+            "id": 71,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-05-15 at 8.16.13 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 8.16.14 PM (1).jpeg",
+            "id": 72,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-05-15 at 8.16.14 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 8.16.15 PM (2).jpeg",
+            "id": 73,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-05-15 at 8.16.15 PM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 8.16.16 PM.jpeg",
+            "id": 74,
+            "url": "/categoria/INFANTILES/FONDOS/WhatsApp Image 2025-05-15 at 8.16.16 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "MESITAS",
+        "id": 16,
+        "product": [
+          {
+            "type": "product",
+            "name": "241475750_3145380449025076_6806460459177284115_n.jpg",
+            "id": 75,
+            "url": "/categoria/INFANTILES/MESITAS/241475750_3145380449025076_6806460459177284115_n.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-10-19 at 5.30.28 PM.jpeg",
+            "id": 76,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2021-10-19 at 5.30.28 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-10-19 at 5.30.30 PM (1).jpeg",
+            "id": 77,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2021-10-19 at 5.30.30 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-10-19 at 5.30.30 PM.jpeg",
+            "id": 78,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2021-10-19 at 5.30.30 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-11-04 at 3.06.44 PM.jpeg",
+            "id": 79,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2021-11-04 at 3.06.44 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-11-04 at 3.06.47 PM.jpeg",
+            "id": 80,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2021-11-04 at 3.06.47 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-02-07 at 1.20.50 PM (2).jpeg",
+            "id": 81,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2022-02-07 at 1.20.50 PM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-02-07 at 1.20.50 PM (3).jpeg",
+            "id": 82,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2022-02-07 at 1.20.50 PM (3).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-02-07 at 1.20.51 PM (1).jpeg",
+            "id": 83,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2022-02-07 at 1.20.51 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-02-07 at 1.20.51 PM.jpeg",
+            "id": 84,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2022-02-07 at 1.20.51 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-08-01 at 10.29-PhotoRoom (2).png",
+            "id": 85,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2023-08-01 at 10.29-PhotoRoom (2).png"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-08-01 at 10.29-PhotoRoom (3).png",
+            "id": 86,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2023-08-01 at 10.29-PhotoRoom (3).png"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-08-01 at 10.29-PhotoRoom (4).png",
+            "id": 87,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2023-08-01 at 10.29-PhotoRoom (4).png"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-08-01 at 10.29-PhotoRoom.png",
+            "id": 88,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2023-08-01 at 10.29-PhotoRoom.png"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-07-05 at 10.32.02 AM.jpeg",
+            "id": 89,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2024-07-05 at 10.32.02 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 10.22.10 PM (1).jpeg",
+            "id": 90,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2024-10-23 at 10.22.10 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 10.22.10 PM (3).jpeg",
+            "id": 91,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2024-10-23 at 10.22.10 PM (3).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 9.09.01 PM (2).jpeg",
+            "id": 92,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2024-10-23 at 9.09.01 PM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 9.09.08 PM.jpeg",
+            "id": 93,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2024-10-23 at 9.09.08 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-13 at 9.06.06 AM.jpeg",
+            "id": 94,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2025-02-13 at 9.06.06 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-13 at 9.20.59 AM.jpeg",
+            "id": 95,
+            "url": "/categoria/INFANTILES/MESITAS/WhatsApp Image 2025-02-13 at 9.20.59 AM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "PICNIC",
+        "id": 17,
+        "product": [
+          {
+            "type": "product",
+            "name": "241711796_3115920785304376_5207552693032203036_n.jpg",
+            "id": 96,
+            "url": "/categoria/INFANTILES/PICNIC/241711796_3115920785304376_5207552693032203036_n.jpg"
+          },
+          {
+            "type": "product",
+            "name": "266749661_4614304275323578_3936312455504534892_n.jpg",
+            "id": 97,
+            "url": "/categoria/INFANTILES/PICNIC/266749661_4614304275323578_3936312455504534892_n.jpg"
+          },
+          {
+            "type": "product",
+            "name": "268943869_1899803770220970_6006506396597416885_n.jpg",
+            "id": 98,
+            "url": "/categoria/INFANTILES/PICNIC/268943869_1899803770220970_6006506396597416885_n.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-12-16 at 8.33.57 AM.jpeg",
+            "id": 99,
+            "url": "/categoria/INFANTILES/PICNIC/WhatsApp Image 2021-12-16 at 8.33.57 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-12-26 at 4.16.12 PM.jpeg",
+            "id": 100,
+            "url": "/categoria/INFANTILES/PICNIC/WhatsApp Image 2023-12-26 at 4.16.12 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "PORTASORPRESAS",
+        "id": 18,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 10.22.10 PM (2).jpeg",
+            "id": 101,
+            "url": "/categoria/INFANTILES/PORTASORPRESAS/WhatsApp Image 2024-10-23 at 10.22.10 PM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-12 at 6.01.24 PM.jpeg",
+            "id": 102,
+            "url": "/categoria/INFANTILES/PORTASORPRESAS/WhatsApp Image 2025-03-12 at 6.01.24 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-15 at 11.09.11 AM.jpeg",
+            "id": 103,
+            "url": "/categoria/INFANTILES/PORTASORPRESAS/WhatsApp Image 2025-03-15 at 11.09.11 AM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "SILLITAS",
+        "id": 19,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 10.12.09 PM.jpeg",
+            "id": 104,
+            "url": "/categoria/INFANTILES/SILLITAS/WhatsApp Image 2024-10-23 at 10.12.09 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-23 at 9.09.10 PM (1).jpeg",
+            "id": 105,
+            "url": "/categoria/INFANTILES/SILLITAS/WhatsApp Image 2024-10-23 at 9.09.10 PM (1).jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "name": "SOCIALES",
+    "id": 20,
+    "product": [
+      {
+        "type": "category",
+        "name": "ADICIONALES",
+        "id": 21,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-06-24 at 11.11.25 AM.jpeg",
+            "id": 106,
+            "url": "/categoria/SOCIALES/ADICIONALES/WhatsApp Image 2021-06-24 at 11.11.25 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-12-27 at 10.43.40 PM (1).jpeg",
+            "id": 107,
+            "url": "/categoria/SOCIALES/ADICIONALES/WhatsApp Image 2021-12-27 at 10.43.40 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-06-06 at 8.51.55 AM.jpeg",
+            "id": 108,
+            "url": "/categoria/SOCIALES/ADICIONALES/WhatsApp Image 2024-06-06 at 8.51.55 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-08 at 11.38.07 AM.jpeg",
+            "id": 109,
+            "url": "/categoria/SOCIALES/ADICIONALES/WhatsApp Image 2024-11-08 at 11.38.07 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 3.12.50 PM.jpeg",
+            "id": 110,
+            "url": "/categoria/SOCIALES/ADICIONALES/WhatsApp Image 2025-01-10 at 3.12.50 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 4.55.15 PM.jpeg",
+            "id": 111,
+            "url": "/categoria/SOCIALES/ADICIONALES/WhatsApp Image 2025-01-10 at 4.55.15 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 5.19.14 PM.jpeg",
+            "id": 112,
+            "url": "/categoria/SOCIALES/ADICIONALES/WhatsApp Image 2025-01-10 at 5.19.14 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "ALTARES",
+        "id": 22,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-06-12 at 11.38.38 AM.jpeg",
+            "id": 113,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2023-06-12 at 11.38.38 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-22 at 10.14.00 AM.jpeg",
+            "id": 114,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2024-11-22 at 10.14.00 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 3.12.51 PM (2).jpeg",
+            "id": 115,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2025-01-10 at 3.12.51 PM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-08 at 11.50.16 AM.jpeg",
+            "id": 116,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2025-05-08 at 11.50.16 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.38.40 PM (1).jpeg",
+            "id": 117,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2025-05-15 at 7.38.40 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.38.40 PM.jpeg",
+            "id": 118,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2025-05-15 at 7.38.40 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.38.41 PM.jpeg",
+            "id": 119,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2025-05-15 at 7.38.41 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.39.54 PM.jpeg",
+            "id": 120,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2025-05-15 at 7.39.54 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 8.16.15 PM.jpeg",
+            "id": 121,
+            "url": "/categoria/SOCIALES/ALTARES/WhatsApp Image 2025-05-15 at 8.16.15 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "BARRAS",
+        "id": 23,
+        "product": [
+          {
+            "type": "product",
+            "name": "53715111270_c215278119_o.jpg",
+            "id": 122,
+            "url": "/categoria/SOCIALES/BARRAS/53715111270_c215278119_o.jpg"
+          },
+          {
+            "type": "product",
+            "name": "barra caoba.jpg",
+            "id": 123,
+            "url": "/categoria/SOCIALES/BARRAS/barra caoba.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-10-01 at 7.14.28 PM.jpeg",
+            "id": 124,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2021-10-01 at 7.14.28 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-08-02 at 10.04.21 AM.jpeg",
+            "id": 125,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2022-08-02 at 10.04.21 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-08-02 at 9.53.19 AM.jpeg",
+            "id": 126,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2022-08-02 at 9.53.19 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-05-26 at 4.47.21 PM.jpeg",
+            "id": 127,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2023-05-26 at 4.47.21 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-20 at 11.05.13 PM.jpeg",
+            "id": 128,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2024-08-20 at 11.05.13 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-20 at 11.05.14 PM.jpeg",
+            "id": 129,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2024-08-20 at 11.05.14 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-02 at 11.43.43 AM (1).jpeg",
+            "id": 130,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2024-11-02 at 11.43.43 AM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-08 at 2.01.17 PM.jpeg",
+            "id": 131,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2024-11-08 at 2.01.17 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-24 at 11.57.56 AM (1).jpeg",
+            "id": 132,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2025-02-24 at 11.57.56 AM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-21 at 11.24.33 AM (1).jpeg",
+            "id": 133,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2025-03-21 at 11.24.33 AM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-07 at 2.25.50 PM.jpeg",
+            "id": 134,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2025-05-07 at 2.25.50 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-08 at 10.59.59 AM.jpeg",
+            "id": 135,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2025-05-08 at 10.59.59 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 10.41.09 PM.jpeg",
+            "id": 136,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2025-05-15 at 10.41.09 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 9.45.10 PM.jpeg",
+            "id": 137,
+            "url": "/categoria/SOCIALES/BARRAS/WhatsApp Image 2025-05-15 at 9.45.10 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "CARRETAS",
+        "id": 24,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-06-06 at 8.51.56 AM.jpeg",
+            "id": 138,
+            "url": "/categoria/SOCIALES/CARRETAS/WhatsApp Image 2024-06-06 at 8.51.56 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-07 at 8.07.45 PM.jpeg",
+            "id": 139,
+            "url": "/categoria/SOCIALES/CARRETAS/WhatsApp Image 2025-01-07 at 8.07.45 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-28 at 9.52.53 AM.jpeg",
+            "id": 140,
+            "url": "/categoria/SOCIALES/CARRETAS/WhatsApp Image 2025-04-28 at 9.52.53 AM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "FONDOS",
+        "id": 25,
+        "product": [
+          {
+            "type": "product",
+            "name": "269882598_1528040820916527_7967621048858470869_n.jpg",
+            "id": 141,
+            "url": "/categoria/SOCIALES/FONDOS/269882598_1528040820916527_7967621048858470869_n.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-02-20 at 10.28.41 AM.jpeg",
+            "id": 142,
+            "url": "/categoria/SOCIALES/FONDOS/WhatsApp Image 2021-02-20 at 10.28.41 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-07-04 at 6.06.44 PM.jpeg",
+            "id": 143,
+            "url": "/categoria/SOCIALES/FONDOS/WhatsApp Image 2021-07-04 at 6.06.44 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-07-04 at 6.13.27 PM.jpeg",
+            "id": 144,
+            "url": "/categoria/SOCIALES/FONDOS/WhatsApp Image 2021-07-04 at 6.13.27 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-07-04 at 9.59.56 PM.jpeg",
+            "id": 145,
+            "url": "/categoria/SOCIALES/FONDOS/WhatsApp Image 2021-07-04 at 9.59.56 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-08-26 at 11.24.30 AM (3).jpeg",
+            "id": 146,
+            "url": "/categoria/SOCIALES/FONDOS/WhatsApp Image 2021-08-26 at 11.24.30 AM (3).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-01-10 at 11.55.06 PM.jpeg",
+            "id": 147,
+            "url": "/categoria/SOCIALES/FONDOS/WhatsApp Image 2022-01-10 at 11.55.06 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-08 at 10.59.59 AM (1).jpeg",
+            "id": 148,
+            "url": "/categoria/SOCIALES/FONDOS/WhatsApp Image 2025-05-08 at 10.59.59 AM (1).jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "INGRESO",
+        "id": 26,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-10-05 at 8.13.45 AM (4).jpeg",
+            "id": 149,
+            "url": "/categoria/SOCIALES/INGRESO/WhatsApp Image 2021-10-05 at 8.13.45 AM (4).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-11-17 at 3.11.05 PM.jpeg",
+            "id": 150,
+            "url": "/categoria/SOCIALES/INGRESO/WhatsApp Image 2023-11-17 at 3.11.05 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-09 at 10.54.09 AM (1).jpeg",
+            "id": 151,
+            "url": "/categoria/SOCIALES/INGRESO/WhatsApp Image 2024-08-09 at 10.54.09 AM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 7.15.22 PM.jpeg",
+            "id": 152,
+            "url": "/categoria/SOCIALES/INGRESO/WhatsApp Image 2025-05-15 at 7.15.22 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "MESAS DECORATIVAS",
+        "id": 27,
+        "product": [
+          {
+            "type": "product",
+            "name": "258815368_3167159216847199_7517832037705172976_n.jpg",
+            "id": 153,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/258815368_3167159216847199_7517832037705172976_n.jpg"
+          },
+          {
+            "type": "product",
+            "name": "271485153_908337289880283_7685158784348188073_n.jpg",
+            "id": 154,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/271485153_908337289880283_7685158784348188073_n.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-08-27 at 6.56.51 PM.jpeg",
+            "id": 155,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2021-08-27 at 6.56.51 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-08-29 at 5.56.39 PM.jpeg",
+            "id": 156,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2021-08-29 at 5.56.39 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2021-09-03 at 2.21.16 PM.jpeg",
+            "id": 157,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2021-09-03 at 2.21.16 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2022-01-10 at 11.39.03 PM.jpeg",
+            "id": 158,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2022-01-10 at 11.39.03 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-07-07 at 2.34.50 PM.jpeg",
+            "id": 159,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2023-07-07 at 2.34.50 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-06-06 at 8.51.54 AM.jpeg",
+            "id": 160,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2024-06-06 at 8.51.54 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-20 at 11.40.13 PM.jpeg",
+            "id": 161,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2024-08-20 at 11.40.13 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-29 at 9.09.59 PM.jpeg",
+            "id": 162,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2024-08-29 at 9.09.59 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-02 at 10.16.27 PM.jpeg",
+            "id": 163,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2024-11-02 at 10.16.27 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-04 at 6.59.58 PM.jpeg",
+            "id": 164,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2025-01-04 at 6.59.58 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-07 at 8.07.46 PM (1).jpeg",
+            "id": 165,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2025-01-07 at 8.07.46 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 3.12.49 PM.jpeg",
+            "id": 166,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2025-01-10 at 3.12.49 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 4.56.56 PM.jpeg",
+            "id": 167,
+            "url": "/categoria/SOCIALES/MESAS DECORATIVAS/WhatsApp Image 2025-01-10 at 4.56.56 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "MESAS Y SILLAS",
+        "id": 28,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-06-23 at 4.37.12 PM.jpeg",
+            "id": 168,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2023-06-23 at 4.37.12 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-06-06 at 8.51.57 AM.jpeg",
+            "id": 169,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2024-06-06 at 8.51.57 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-07-07 at 3.26.44 PM.jpeg",
+            "id": 170,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2024-07-07 at 3.26.44 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-29 at 10.43.26 AM.jpeg",
+            "id": 171,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2024-11-29 at 10.43.26 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 3.12.50 PM (1).jpeg",
+            "id": 172,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2025-01-10 at 3.12.50 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-18 at 10.45.34 AM (1).jpeg",
+            "id": 173,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2025-01-18 at 10.45.34 AM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-20 at 12.34.19 PM.jpeg",
+            "id": 174,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2025-03-20 at 12.34.19 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-20 at 12.34.52 PM.jpeg",
+            "id": 175,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2025-03-20 at 12.34.52 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-20 at 12.34.55 PM.jpeg",
+            "id": 176,
+            "url": "/categoria/SOCIALES/MESAS Y SILLAS/WhatsApp Image 2025-03-20 at 12.34.55 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "QUINCEAÑERO",
+        "id": 29,
+        "product": [
+          {
+            "type": "product",
+            "name": "1517259132306.jpg",
+            "id": 177,
+            "url": "/categoria/SOCIALES/QUINCEAÑERO/1517259132306.jpg"
+          },
+          {
+            "type": "product",
+            "name": "IMG-20190126-WA0023.jpg",
+            "id": 178,
+            "url": "/categoria/SOCIALES/QUINCEAÑERO/IMG-20190126-WA0023.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-12-26 at 8.46.58 PM.jpeg",
+            "id": 179,
+            "url": "/categoria/SOCIALES/QUINCEAÑERO/WhatsApp Image 2023-12-26 at 8.46.58 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-07 at 2.23.11 PM.jpeg",
+            "id": 180,
+            "url": "/categoria/SOCIALES/QUINCEAÑERO/WhatsApp Image 2025-05-07 at 2.23.11 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "SALAS BAR",
+        "id": 30,
+        "product": [
+          {
+            "type": "product",
+            "name": "53701509099_04f3303984_o.jpg",
+            "id": 181,
+            "url": "/categoria/SOCIALES/SALAS BAR/53701509099_04f3303984_o.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-05-26 at 4.47.20 PM.jpeg",
+            "id": 182,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2023-05-26 at 4.47.20 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-08-20 at 11.23.01 PM.jpeg",
+            "id": 183,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2024-08-20 at 11.23.01 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-10-29 at 3.37.34 PM.jpeg",
+            "id": 184,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2024-10-29 at 3.37.34 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-24 at 1.18.19 PM.jpeg",
+            "id": 185,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2025-01-24 at 1.18.19 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-02-24 at 11.57.57 AM (1).jpeg",
+            "id": 186,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2025-02-24 at 11.57.57 AM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-25 at 9.37.37 AM.jpeg",
+            "id": 187,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2025-04-25 at 9.37.37 AM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-07 at 7.45.40 PM (1).jpeg",
+            "id": 188,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2025-05-07 at 7.45.40 PM (1).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-15 at 9.45.11 PM.jpeg",
+            "id": 189,
+            "url": "/categoria/SOCIALES/SALAS BAR/WhatsApp Image 2025-05-15 at 9.45.11 PM.jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "SALAS LOUNGE",
+        "id": 31,
+        "product": [
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2023-11-25 at 12.14.36 PM.jpeg",
+            "id": 190,
+            "url": "/categoria/SOCIALES/SALAS LOUNGE/WhatsApp Image 2023-11-25 at 12.14.36 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-07-25 at 2.13.08 PM.jpeg",
+            "id": 191,
+            "url": "/categoria/SOCIALES/SALAS LOUNGE/WhatsApp Image 2024-07-25 at 2.13.08 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-11-02 at 5.09.54 PM.jpeg",
+            "id": 192,
+            "url": "/categoria/SOCIALES/SALAS LOUNGE/WhatsApp Image 2024-11-02 at 5.09.54 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-03-29 at 5.18.22 PM.jpeg",
+            "id": 193,
+            "url": "/categoria/SOCIALES/SALAS LOUNGE/WhatsApp Image 2025-03-29 at 5.18.22 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-04-25 at 9.36.21 AM (2).jpeg",
+            "id": 194,
+            "url": "/categoria/SOCIALES/SALAS LOUNGE/WhatsApp Image 2025-04-25 at 9.36.21 AM (2).jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-05-07 at 2.25.50 PM (1).jpeg",
+            "id": 195,
+            "url": "/categoria/SOCIALES/SALAS LOUNGE/WhatsApp Image 2025-05-07 at 2.25.50 PM (1).jpeg"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "name": "SILLONES",
+        "id": 32,
+        "product": [
+          {
+            "type": "product",
+            "name": "IMG-20190126-WA0023.jpg",
+            "id": 196,
+            "url": "/categoria/SOCIALES/SILLONES/IMG-20190126-WA0023.jpg"
+          },
+          {
+            "type": "product",
+            "name": "IMG-20190128-WA0069.jpg",
+            "id": 197,
+            "url": "/categoria/SOCIALES/SILLONES/IMG-20190128-WA0069.jpg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2024-07-11 at 4.58.55 PM.jpeg",
+            "id": 198,
+            "url": "/categoria/SOCIALES/SILLONES/WhatsApp Image 2024-07-11 at 4.58.55 PM.jpeg"
+          },
+          {
+            "type": "product",
+            "name": "WhatsApp Image 2025-01-10 at 3.12.49 PM (1).jpeg",
+            "id": 199,
+            "url": "/categoria/SOCIALES/SILLONES/WhatsApp Image 2025-01-10 at 3.12.49 PM (1).jpeg"
+          }
+        ]
+      }
+    ]
+  }
+]

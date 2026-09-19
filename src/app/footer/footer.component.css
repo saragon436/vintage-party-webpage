@@ -1,0 +1,98 @@
+.footer {
+    font-family: 'Gilroy-Light' !important;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.footer-title {
+    color: #333;
+    background-color: var(--bg-secundary-2);
+}
+
+.lights-decoration {
+    background-image: url('/images/lights-decoration.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    text-align: center;
+    display: flow-root;
+}
+
+.footer-logo {
+    height: 80px;    
+}
+
+.footer-link {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #17a2b8;
+}
+
+.footer-subtitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+a {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    color: #606060;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Responsividad */
+@media (max-width: 767px) {
+    .footer{
+        width: 100%;
+    }
+    .footer-title {
+        font-size: 2rem;
+    }
+
+    .footer-logo {
+        height: 60px;
+    }
+
+    .footer-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .list-unstyled li {
+        font-size: 0.9rem;
+    }
+
+    .copyright p {
+        font-size: 0.8rem;
+    }
+
+    .lights-decoration {
+        padding-bottom: 40px;
+    }
+}

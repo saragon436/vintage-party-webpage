@@ -1,0 +1,18 @@
+<div class="bg-main text-center py-3">
+    <h2 class="section-title">Galeria</h2>
+</div>
+<section class="galeria-section py-5">
+    <div class="container text-center">
+        <p class="section-subtitle mb-5">La decoración perfecta para momentos inolvidables.</p>
+        <div class="row g-4">
+            <div class="col-12 col-md-6" *ngFor="let item of galleryItems">
+                <div class="gallery-card" (click)="selectCategory(item.id); $event.preventDefault()">
+                    <img [src]="item.image" [alt]="item.title" class="card-img">
+                    <div class="card-overlay">
+                        <h4 class="card-title">{{ item.title }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

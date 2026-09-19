@@ -1,0 +1,72 @@
+@import url('assets/scss/font.scss');
+:root {
+    --bg-primary: #9C46C2;
+    --bg-secundary: #F9E5FF;
+    --bg-secundary-2: #CDA2D4;
+    --font-title-bold: 'Arima-Bold';
+}
+
+body {
+    /* background: var(--bg-secundary) !important; */
+    background: linear-gradient(to bottom,#fff 15%, var(--bg-secundary) 45%, #fff 55%) !important;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy-Light' !important;
+}
+nav{
+    font-size: 16px;
+}
+
+nav ul li a{
+    font-weight: bold !important;
+}
+
+app-quienes-somos section, app-galeria section, app-contacto section {
+    padding: 0 15%;
+}
+
+app-quienes-somos h2 {
+    color: var(--bg-primary) !important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-title-bold) !important;
+}
+
+h2 {
+    font-size: 45px !important;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+h3 > strong {
+    font-size: 3.2rem;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 1.1rem !important;
+}
+
+.bg-main {
+    background-color: var(--bg-primary) !important;
+}
+
+.bg-secundary {
+    background-color: var(--bg-secundary) !important;
+}
+
+.title-bold {
+    font-family: var(--font-title-bold) !important;
+}
+
+/* Responsividad */
+@media (max-width: 767px) {
+    app-quienes-somos section, app-galeria section, app-contacto section {
+        padding: 0;
+    }
+}

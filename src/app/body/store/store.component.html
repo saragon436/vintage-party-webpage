@@ -1,0 +1,42 @@
+<!-- Barra de búsqueda -->
+<app-search></app-search>
+<div class="separate"></div>
+<app-sitemap [selectedCategory]="selectedCategory"></app-sitemap>
+<div class="row mt-3 mx-auto container-store">
+  <!-- Sidebar (Categorías) -->
+  <div class="col-md-2">
+    <div class="category-sidebar p-3 rounded">
+      <ul class="list-unstyled">
+        <li *ngFor="let category of categories">
+          <a href="#" (click)="selectCategory(category); $event.preventDefault()" [class.active]="category.name === selectedCategory" class="category-link">
+            {{ category.name }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Contenido Principal (Productos) -->
+  <div class="col-md-10">
+    <h3>{{ selectedCategory }}</h3>
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3 mb-4" *ngFor="let product of products; let i = index">
+        <div class="card h-100">
+          <img [src]="product.image" class="card-img-top" [alt]="product.name" (click)="openModal(i)">          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-backdrop" *ngIf="showModal" (click)="closeModal()" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.7);z-index:1050;display:flex;align-items:center;justify-content:center;">
+  <div class="modal-content" (click)="$event.stopPropagation()" style="background:#fff;padding:1rem;position:relative;max-width:90vw;max-height:90vh;display:flex;flex-direction:column;align-items:center;">
+    <button (click)="closeModal()" style="position:absolute;top:0.5rem;right:0.5rem;" class="btn btn-close"></button>
+    <img [src]="products[selectedProductIndex].image" [alt]="products[selectedProductIndex].name" style="max-width:80vw;max-height:70vh;">
+    <div class="mt-2">
+      <button class="btn btn-secondary me-2" (click)="prevImage()" [disabled]="selectedProductIndex === 0">&lt;</button>
+      <button class="btn btn-secondary" (click)="nextImage()" [disabled]="selectedProductIndex === products.length - 1">&gt;</button>
+    </div>
+  </div>
+</div>

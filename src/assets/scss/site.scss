@@ -1,0 +1,699 @@
+/**************************************************************************/
+/*HEADER*/
+/**************************************************************************/
+@media (max-width: 768px) {
+    .onlyMobile {
+        display: block !important;
+    }
+
+    .rd-navbar-brand {
+        display: block !important;
+        margin-left: 19% !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .rd-navbar-shop a {
+        span {
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+        }
+
+        font-size: 30px;
+    }
+
+    .logo-inverse {
+        margin-top: 5px;
+        max-width: 140px !important;
+        max-height: 60px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .rd-navbar-static {
+        .rd-navbar-aside-right {
+            width: 83%;
+        }
+
+        .rd-navbar-inner {
+            max-width: 80%;
+        }
+    }
+
+    .rd-navbar-fullwidth .rd-navbar-inner {
+        max-width: 80%;
+    }
+
+    .rd-navbar-static .rd-navbar-inner,
+    .rd-navbar-fullwidth .rd-navbar-inner {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rd-navbar-static {
+        .rd-navbar-aside-right {
+            width: 83%;
+        }
+
+        .rd-navbar-inner {
+            max-width: 80%;
+        }
+    }
+
+    .rd-navbar-fullwidth .rd-navbar-inner {
+        max-width: 80%;
+    }
+
+    .rd-navbar-static .rd-navbar-inner,
+    .rd-navbar-fullwidth .rd-navbar-inner {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .rd-navbar-static {
+        .rd-navbar-aside-right {
+            width: 83%;
+        }
+
+        .rd-navbar-inner {
+            max-width: 80%;
+        }
+    }
+
+    .rd-navbar-fullwidth .rd-navbar-inner {
+        max-width: 80%;
+    }
+
+    .rd-navbar-static .rd-navbar-inner,
+    .rd-navbar-fullwidth .rd-navbar-inner {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/**************************************************************************/
+/*BANNER*/
+/**************************************************************************/
+@media (max-width: 768px) {
+    #carouselBanners {
+        max-height: 600px;
+        margin: 0 auto;
+    }
+
+    .carousel-banner-text {
+        max-width: 250px;
+        font-size: 22px;
+        top: 25px;
+        left: 25px;
+    }
+
+    .carousel-banner-button {
+        top: 120px;
+        left: 30px;
+        position: absolute;
+        min-width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    #carouselBanners {
+        max-width: 90%;
+        max-height: 600px;
+        margin: 0 auto;
+    }
+
+    .carousel-banner-text {
+        font-size: 45px;
+        top: 130px;
+        max-width: 660px;
+    }
+
+    .carousel-banner-button {
+        top: 360px;
+        min-width: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #carouselBanners {
+        max-width: 90%;
+        max-height: 600px;
+        margin: 0 auto;
+    }
+
+    .carousel-banner-text {
+        font-size: 65px;
+        top: 130px;
+        max-width: 660px;
+    }
+
+    .carousel-banner-button {
+        top: 415px;
+        min-width: 200px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #carouselBanners {
+        max-width: 80%;
+        max-height: 600px;
+        margin: 0 auto;
+    }
+
+    .carousel-banner-text {
+        font-size: 65px;
+        top: 130px;
+        max-width: 660px;
+    }
+
+    .carousel-banner-button {
+        top: 415px;
+        min-width: 200px;
+    }
+}
+
+@media (min-width: 1900px) {
+    #carouselBanners {
+        max-width: 80%;
+        max-height: 600px;
+        margin: 0 auto;
+    }
+
+    .carousel-banner-text {
+        font-size: 65px;
+        top: 130px;
+        max-width: 660px;
+    }
+
+    .carousel-banner-button {
+        top: 415px;
+        min-width: 200px;
+    }
+}
+
+/**************************************************************************/
+/*QUEM SOMOS*/
+/**************************************************************************/
+@media (max-width: 768px) {
+    .txt-quem-somos {
+        text-align: center !important;
+    }
+
+    #quemsomos {
+        padding-top: 0px !important;
+        width: 100%;
+
+        >.row {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .shell {
+            padding: 0px;
+            min-width: auto;
+        }
+    }
+
+    .shell-wide {
+        min-width: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #quemsomos {
+        width: 90%;
+
+        >.row {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .shell {
+            padding-left: 20px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #quemsomos {
+        width: 90%;
+
+        >.row {
+            width: 81%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    #quemsomos {
+        width: 100%;
+
+        >.row {
+            width: 73%;
+            margin: 0 auto;
+        }
+    }
+}
+
+/**************************************************************************/
+/*FRASE DESTAQUE*/
+/**************************************************************************/
+@media (max-width: 768px) {
+    .box-cta .box-cta-title {
+        font-size: 18px;
+    }
+}
+
+/**************************************************************************/
+/*MONTE SUA FESTA*/
+/**************************************************************************/
+@media (max-width: 768px) {
+
+    .monteSuaFestaElemento,
+    #acervo {
+        /*display: none;*/
+    }
+
+    .dv-categoria {
+        display: none;
+    }
+
+    .dv-produto-item-categoria {
+        margin: 0px 20px 22px 20px;
+        height: 300px;
+
+        >span {
+            width: 100%;
+            margin-top: 25%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .dv-produto-item-categoria {
+        height: 200px;
+        margin: 0px 0px 24px 40px;
+
+        >span {
+            width: 100%;
+            margin-top: 25%;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .dv-produto-item-categoria {
+        height: 300px;
+        margin: 0px 0px 30px 40px;
+
+        >span {
+            width: 100%;
+            margin-top: 25%;
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    .dv-produto-item-categoria {
+        height: 300px;
+        margin: 0px 0px 30px 70px;
+
+        >span {
+            width: 100%;
+            margin-top: 25%;
+        }
+    }
+}
+
+/**************************************************************************/
+/*MONTAGENS MH*/
+/**************************************************************************/
+@media (max-width: 768px) {}
+
+@media (min-width: 992px) {
+    #dv-montagens>.row {
+        width: 88%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #dv-montagens>.row {
+        width: 78%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    #dv-montagens>.row {
+        width: 76%;
+        margin: 0 auto;
+    }
+}
+
+/**************************************************************************/
+/*GALERIA MH*/
+/**************************************************************************/
+@media (max-width: 768px) {}
+
+@media (min-width: 992px) {
+    #dv-galeriafotos>.row {
+        width: 88%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #dv-galeriafotos>.row {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1600px) {}
+
+/**************************************************************************/
+/*TEMAS MH*/
+/**************************************************************************/
+@media (max-width: 768px) {
+    #carousel_temas {
+        .slick-prev {
+            margin-left: 10%;
+        }
+
+        .slick-next {
+            margin-right: 10%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #dv-temas>.row {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #dv-temas>.row {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1600px) {}
+
+/**************************************************************************/
+/*CONTATO*/
+/**************************************************************************/
+@media (max-width: 768px) {
+    #contato {
+        margin-top: 0px;
+
+        .row {
+            margin: 0 auto !important;
+
+            .contato {
+                .col-5 {
+                    min-width: 180px;
+                    min-height: 35px;
+                }
+
+                .col-6 {
+                    min-width: 100%;
+                    min-height: 40px;
+                }
+            }
+
+            img {
+                width: 35% !important;
+                margin: 0 auto;
+                margin-right: auto !important;
+            }
+
+            .dv-contato-partytogo {
+                img {
+                    width: 80px !important;
+                }
+
+                .col-3 {
+                    margin-right: 15px;
+                }
+
+                .col-9 .row .col-12 {
+                    padding-left: 15px !important;
+                }
+            }
+
+            .horario-atendimento,
+            .endereco {
+                .iptg {
+                    margin-top: 30px;
+                }
+
+                .col-11 {
+                    margin-left: 35px;
+                }
+            }
+
+            .contato-redes {
+                display: flow;
+            }
+
+            .col-5 {
+                &.contato-rede-partytogo {
+                    margin-top: 10px;
+                    max-width: 90% !important;
+                    margin: 0 auto;
+                }
+
+                &.contato-rede-mh {
+                    margin-top: 10px !important;
+                    max-width: 90% !important;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .contato-redes {
+        .contato-rede-partytogo {
+            max-width: 50%;
+        }
+
+        .contato-rede-mh {
+            max-width: 50%;
+            margin-left: auto;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .contato-redes {
+
+        .contato-rede-partytogo,
+        .contato-rede-mh {
+            max-width: 40%;
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    .contato-redes {
+
+        .contato-rede-partytogo,
+        .contato-rede-mh {
+            max-width: 30%;
+        }
+    }
+}
+
+/**************************************************************************/
+/*FOOTER*/
+/**************************************************************************/
+@media (max-width: 768px) {
+    #footer {
+        >.row a {
+            font-size: 16px;
+        }
+
+        .text-center {
+            margin-top: 15px !important;
+            line-height: 1.2 !important;
+        }
+    }
+
+    .page-footer-extended *+ {
+
+        h6,
+        .flickr,
+        .instafeed {
+            margin-top: 40px;
+        }
+    }
+
+    .page-footer-inline-list {
+        margin-bottom: -10px;
+        margin-left: -29.5px;
+        margin-right: -29.5px;
+
+        >li {
+            display: inline-block;
+            margin-bottom: 10px;
+            margin-left: 29.5px;
+            margin-right: 29.5px;
+        }
+    }
+
+    .dv-contato-partytogo {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .imgFooter {
+        max-width: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .imgFooter {
+        height: 190px !important;
+    }
+
+    #footer .text-center {
+        margin-top: 15px !important;
+        line-height: 1.2 !important;
+    }
+
+    .dv-contato-partytogo {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #dv-temas {
+        max-width: 80%;
+    }
+
+    .page-footer-extended {
+        padding: 60px 0 40px;
+
+        *+h6 {
+            margin-top: 65px;
+        }
+
+        .rd-google-map-wrap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: calc(50% + 250px);
+        }
+
+        .google-map-container {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            max-width: none;
+        }
+
+        .google-map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .page-footer-inline-list {
+        margin-bottom: -10px;
+        margin-left: -12.5px;
+        margin-right: -12.5px;
+
+        >li {
+            display: inline-block;
+            margin-bottom: 10px;
+            margin-left: 12.5px;
+            margin-right: 12.5px;
+        }
+    }
+
+    .imgFooter {
+        height: 100px;
+    }
+
+    .dv-contato-partytogo {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1600px) {
+    #dv-temas {
+        max-width: 80%;
+    }
+
+    .page-footer-extended {
+        padding: 70px 0 60px;
+
+        *+h6 {
+            margin-top: 115px;
+        }
+
+        .rd-google-map-wrap {
+            right: calc(50% + 330px);
+        }
+    }
+
+    .page-footer-icon-list {
+        margin-bottom: -5px;
+        margin-left: -17.5px;
+        margin-right: -17.5px;
+
+        >li {
+            display: inline-block;
+            margin-bottom: 5px;
+            margin-left: 17.5px;
+            margin-right: 17.5px;
+        }
+    }
+
+    .page-footer-inline-list {
+        margin-bottom: -10px;
+        margin-left: -29.5px;
+        margin-right: -29.5px;
+
+        >li {
+            display: inline-block;
+            margin-bottom: 10px;
+            margin-left: 29.5px;
+            margin-right: 29.5px;
+        }
+    }
+}
+
+@media (min-width: 1800px) {
+    #dv-temas {
+        max-width: 80%;
+    }
+
+    .page-footer-extended p.right {
+        margin-left: 15px;
+    }
+}

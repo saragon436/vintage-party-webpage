@@ -1,0 +1,12 @@
+<nav aria-label="breadcrumb" class="sitemap mx-auto" style="max-width: 80%;">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item" *ngFor="let item of breadcrumbs; let last = last">
+            <ng-container *ngIf="!item.isLast; else lastItem">
+                <a [routerLink]="item.link" class="breadcrumb-link">{{ item.label }}</a>
+            </ng-container>
+            <ng-template #lastItem>
+                <span class="breadcrumb-item active" aria-current="page">{{ item.label }}</span>
+            </ng-template>
+        </li>
+    </ol>
+</nav>
